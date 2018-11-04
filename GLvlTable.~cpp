@@ -1,0 +1,97 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "HistogramWin.h"
+#include "ChildWin.h"
+#include "Main.h"
+#include "GLvlTable.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma link "CGAUGES"
+#pragma resource "*.dfm"
+TGrayLevelsTable *GrayLevelsTable;
+//---------------------------------------------------------------------------
+__fastcall TGrayLevelsTable::TGrayLevelsTable(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TGrayLevelsTable::OnDestroy(TObject *Sender)
+{
+MainForm->grayTable = false;
+}
+//---------------------------------------------------------------------------
+void TGrayLevelsTable::NuevaTabla()
+{
+//Dibuja la imagen activa en el histograma
+   TMDIChild *Child =(TMDIChild *)MainForm->ActiveMDIChild;
+    String name="GrayLevelsTable="+ExtractFileName(Child->FileName);
+    GrayLevelsTable->Caption=name;
+    ClearButtons();
+    for(int i=0; i<256; i++)
+  {
+   if(pChild->Histo.L[0]!=0)
+        CheckBox0->Checked=true;
+  }
+}
+void TGrayLevelsTable::ClearButtons()
+{
+CheckBox0->Checked=false;
+CheckBox1->Checked=false;
+CheckBox2->Checked=false;
+CheckBox3->Checked=false;
+CheckBox4->Checked=false;
+CheckBox5->Checked=false;
+CheckBox6->Checked=false;
+CheckBox7->Checked=false;
+CheckBox8->Checked=false;
+CheckBox9->Checked=false;
+CheckBox10->Checked=false;
+CheckBox11->Checked=false;
+CheckBox12->Checked=false;
+CheckBox13->Checked=false;
+CheckBox14->Checked=false;
+CheckBox15->Checked=false;
+CheckBox16->Checked=false;
+CheckBox17->Checked=false;
+CheckBox18->Checked=false;
+CheckBox19->Checked=false;
+CheckBox20->Checked=false;
+CheckBox21->Checked=false;
+CheckBox22->Checked=false;
+CheckBox23->Checked=false;
+CheckBox24->Checked=false;
+CheckBox25->Checked=false;
+CheckBox26->Checked=false;
+CheckBox27->Checked=false;
+CheckBox28->Checked=false;
+CheckBox29->Checked=false;
+CheckBox30->Checked=false;
+CheckBox31->Checked=false;
+CheckBox32->Checked=false;
+CheckBox33->Checked=false;
+CheckBox34->Checked=false;
+CheckBox35->Checked=false;
+CheckBox36->Checked=false;
+CheckBox37->Checked=false;
+CheckBox38->Checked=false;
+CheckBox39->Checked=false;
+CheckBox40->Checked=false;
+CheckBox41->Checked=false;
+CheckBox42->Checked=false;
+CheckBox43->Checked=false;
+CheckBox44->Checked=false;
+CheckBox45->Checked=false;
+CheckBox46->Checked=false;
+CheckBox47->Checked=false;
+CheckBox48->Checked=false;
+CheckBox49->Checked=false;
+CheckBox50->Checked=false;
+
+}
+
+
+
+

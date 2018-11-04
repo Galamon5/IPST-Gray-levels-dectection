@@ -1,0 +1,131 @@
+//---------------------------------------------------------------------------
+
+#ifndef GLvlTableH
+#define GLvlTableH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include "Main.h"
+#include "HistogramWin.h"
+#include "ChildWin.h"
+//---------------------------------------------------------------------------
+class TGrayLevelsTable : public TForm
+{
+__published:	// IDE-managed Components
+        TLabel *Label0;
+        TLabel *Label1;
+        TLabel *Label2;
+        TCheckBox *CheckBox0;
+        TCheckBox *CheckBox1;
+        TCheckBox *CheckBox2;
+        TLabel *Label3;
+        TCheckBox *CheckBox3;
+        TLabel *Label4;
+        TCheckBox *CheckBox4;
+        TLabel *Label5;
+        TCheckBox *CheckBox5;
+        TLabel *Label6;
+        TCheckBox *CheckBox6;
+        TLabel *Label7;
+        TCheckBox *CheckBox7;
+        TLabel *Label8;
+        TCheckBox *CheckBox8;
+        TLabel *Label9;
+        TCheckBox *CheckBox9;
+        TLabel *Label10;
+        TCheckBox *CheckBox10;
+        TLabel *Label11;
+        TCheckBox *CheckBox11;
+        TLabel *Label12;
+        TCheckBox *CheckBox12;
+        TLabel *Label13;
+        TCheckBox *CheckBox13;
+        TLabel *Label14;
+        TCheckBox *CheckBox14;
+        TLabel *Label15;
+        TCheckBox *CheckBox15;
+        TLabel *Label16;
+        TCheckBox *CheckBox16;
+        TLabel *Label17;
+        TCheckBox *CheckBox17;
+        TLabel *Label18;
+        TCheckBox *CheckBox18;
+        TLabel *Label19;
+        TCheckBox *CheckBox19;
+        TLabel *Label20;
+        TCheckBox *CheckBox20;
+        TLabel *Label21;
+        TCheckBox *CheckBox21;
+        TLabel *Label22;
+        TCheckBox *CheckBox22;
+        TLabel *Label23;
+        TCheckBox *CheckBox23;
+        TLabel *Label24;
+        TCheckBox *CheckBox24;
+        TLabel *Label25;
+        TCheckBox *CheckBox25;
+        TLabel *Label26;
+        TCheckBox *CheckBox26;
+        TLabel *Label27;
+        TCheckBox *CheckBox27;
+        TLabel *Label28;
+        TCheckBox *CheckBox28;
+        TLabel *Label29;
+        TCheckBox *CheckBox29;
+        TLabel *Label30;
+        TCheckBox *CheckBox30;
+        TLabel *Label31;
+        TCheckBox *CheckBox31;
+        TLabel *Label32;
+        TCheckBox *CheckBox32;
+        TLabel *Label33;
+        TCheckBox *CheckBox33;
+        TLabel *Label34;
+        TCheckBox *CheckBox34;
+        TLabel *Label35;
+        TCheckBox *CheckBox35;
+        TLabel *Label36;
+        TCheckBox *CheckBox36;
+        TLabel *Label37;
+        TCheckBox *CheckBox37;
+        TLabel *Label38;
+        TCheckBox *CheckBox38;
+        TLabel *Label39;
+        TCheckBox *CheckBox39;
+        TLabel *Label40;
+        TCheckBox *CheckBox40;
+        TLabel *Label41;
+        TCheckBox *CheckBox41;
+        TLabel *Label42;
+        TCheckBox *CheckBox42;
+        TLabel *Label43;
+        TCheckBox *CheckBox43;
+        TLabel *Label44;
+        TCheckBox *CheckBox44;
+        TLabel *Label45;
+        TCheckBox *CheckBox45;
+        TLabel *Label46;
+        TCheckBox *CheckBox46;
+        TLabel *Label47;
+        TCheckBox *CheckBox47;
+        TLabel *Label48;
+        TCheckBox *CheckBox48;
+        TLabel *Label49;
+        TCheckBox *CheckBox49;
+        TLabel *Label50;
+        TCheckBox *CheckBox50;
+        void __fastcall OnDestroy(TObject *Sender);
+
+private:	// User declarations
+public:		// User declarations
+        __fastcall TGrayLevelsTable(TComponent* Owner);
+         void NuevaTabla();
+          void ClearButtons();
+        TMDIChild *pChild;
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TGrayLevelsTable *GrayLevelsTable;
+//---------------------------------------------------------------------------
+#endif

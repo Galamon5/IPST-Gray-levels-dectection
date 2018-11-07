@@ -1,0 +1,105 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+#include "ChildWin.h"
+#include "Main.h"
+#include "PtLevels.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TPlotlevels1 *Plotlevels1;
+//---------------------------------------------------------------------------
+__fastcall TPlotlevels1::TPlotlevels1(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TPlotlevels1::PGLOkClick(TObject *Sender)
+{
+TMDIChild *Uno=(TMDIChild*)MainForm->ActiveMDIChild;
+Screen->Cursor = crHourGlass;
+if(Uno!=NULL){
+        Graphics::TBitmap *Original = new Graphics::TBitmap;
+        Graphics::TBitmap *Bitmap = new Graphics::TBitmap;
+        Original->Assign(Uno->ActiveBitmap());
+         if(R->Checked==true){
+         Bitmap->Assign(Original);
+         MainForm->Pdi->CanalRojoDet(Bitmap);
+         ResolucionColor(Bitmap,StrToInt(first->Text),StrToInt(last->Text));
+         String name=ExtractFilePath(Uno->FileName)+"\Detection Level Red:"+first->Text+"="+ExtractFileName(Uno->FileName);
+         MainForm->CreateMDIChild(name ,Bitmap);
+         }
+         if(G->Checked==true){
+         Bitmap->Assign(Original);
+         MainForm->Pdi->CanalVerdeDet(Bitmap);
+         ResolucionColor(Bitmap,StrToInt(first->Text),StrToInt(last->Text));
+         String name=ExtractFilePath(Uno->FileName)+"\Detection Level Green:"+first->Text+"="+ExtractFileName(Uno->FileName);
+         MainForm->CreateMDIChild(name ,Bitmap);
+         }
+         if(B->Checked==true){
+         Bitmap->Assign(Original);
+         MainForm->Pdi->CanalAzulDet(Bitmap);
+         ResolucionColor(Bitmap,StrToInt(first->Text),StrToInt(last->Text));
+         String name=ExtractFilePath(Uno->FileName)+"\Detection Level Blue:"+first->Text+"="+ExtractFileName(Uno->FileName);
+         MainForm->CreateMDIChild(name ,Bitmap);
+         }
+         if(Gray->Checked==true){
+         Bitmap->Assign(Original);
+         MainForm->Pdi->CanalAzulDet(Bitmap);
+         ResolucionColor(Bitmap,StrToInt(first->Text),StrToInt(last->Text));
+         String name=ExtractFilePath(Uno->FileName)+"\Detection Level Blue:"+first->Text+"="+ExtractFileName(Uno->FileName);
+         MainForm->CreateMDIChild(name ,Bitmap);
+         }
+    Bitmap->FreeImage();
+    delete Bitmap;
+    Original->FreeImage();
+    delete Original;
+}
+Screen->Cursor = crDefault;
+}
+//---------------------------------------------------------------------------
+void __fastcall TPlotlevels1::UpDown1Click(TObject *Sender,
+      TUDBtnType Button)
+{
+if(UpDown1->Position>256){
+UpDown1->Position=2;
+}
+if(UpDown1->Position<1){
+UpDown1->Position=256;
+}        
+}
+//---------------------------------------------------------------------------
+void __fastcall TPlotlevels1::UpDown2Click(TObject *Sender,
+      TUDBtnType Button)
+{
+if(UpDown2->Position>256){
+UpDown2->Position=2;
+}
+if(UpDown2->Position<1){
+UpDown2->Position=256;
+}
+}
+//---------------------------------------------------------------------------
+void TPlotlevels1::ResolucionColor(Graphics::TBitmap *Bitmap, int first, int last)
+{
+int LUT[3][256];
+int sR=0;
+int nivelGris;
+int x=0;
+  for(int y=0; y<256; y++){
+     nivelGris=255;
+     LUT[x][y]=nivelGris;
+     LUT[x+1][y]=nivelGris;
+     LUT[x+2][y]=nivelGris;
+   }
+BYTE *LinePtr;
+for(int y  = 0 ; y < Bitmap->Height ; y++ ){
+     LinePtr = (BYTE *)Bitmap->ScanLine[y];
+     for( int x = 0 ; x < Bitmap->Width ; x++){
+              LinePtr[x*3] = (BYTE)LUT[2][(int)LinePtr[x*3]];
+              LinePtr[x*3+1] = (BYTE)LUT[1][(int)LinePtr[x*3+1]];
+              LinePtr[x*3+2] = (BYTE)LUT[0][(int)LinePtr[x*3+2]];
+     }
+}
+}

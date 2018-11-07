@@ -1,6 +1,6 @@
 object MDIChild: TMDIChild
-  Left = 417
-  Top = 197
+  Left = 758
+  Top = 214
   Width = 250
   Height = 146
   HorzScrollBar.Smooth = True

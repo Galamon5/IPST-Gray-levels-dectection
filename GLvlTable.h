@@ -526,7 +526,16 @@ __published:	// IDE-managed Components
         TCheckBox *CheckBox254;
         TLabel *Label255;
         TCheckBox *CheckBox255;
+        TGroupBox *GroupBox1;
+        TRadioButton *Red;
+        TRadioButton *Green;
+        TRadioButton *Blue;
+        TRadioButton *Gray;
         void __fastcall OnDestroy(TObject *Sender);
+        void __fastcall RedClick(TObject *Sender);
+        void __fastcall GreenClick(TObject *Sender);
+        void __fastcall BlueClick(TObject *Sender);
+        void __fastcall GrayClick(TObject *Sender);
 
 private:	// User declarations
 public:		// User declarations

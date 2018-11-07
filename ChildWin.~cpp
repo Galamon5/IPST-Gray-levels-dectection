@@ -13,6 +13,7 @@
 #include "ZoomNe.h"
 #include "Resolution.h"
 #include "Resolution1.h"
+#include "GLvlTable.h"
 
 
 
@@ -61,6 +62,11 @@ if (MainForm->Histo){
         HistogramForm->pChild=NULL;
         }
 }
+if (MainForm->grayTable){
+        if(GrayLevelsTable->pChild==this){
+        GrayLevelsTable->pChild=NULL;
+        }
+}
 /*if (MainForm->Graphics){
         if(Form7->pChild==this){
         Form7->pChild=NULL;
@@ -79,8 +85,7 @@ Ligadas[i]->Close();
 Action = caFree;
 }
 //---------------------------------------------------------------------------
-void __fastcall TMDIChild::ImageMouseMove(TObject *Sender,
-      TShiftState Shift, int X, int Y)
+void __fastcall TMDIChild::ImageMouseMove(TObject *Sender, TShiftState Shift, int X, int Y)
 {
 PixelXMove=X;
 PixelYMove=Y;
@@ -335,8 +340,10 @@ if (MainForm->Histo){
         HistogramForm->pChild=this;
         HistogramForm->NuevoHist();
 }
-
-
+if (MainForm->grayTable){
+        GrayLevelsTable->pChild=this;
+        GrayLevelsTable->NuevaTabla();
+}
 
 
 
@@ -646,6 +653,10 @@ Cursor = TCursor(crDefault);
 }
 }
 //---------------------------------------------------------------------------
+
+
+
+
 
 
 

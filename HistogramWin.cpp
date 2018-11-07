@@ -6,6 +6,7 @@
 #include "HistogramWin.h"
 #include "ChildWin.h"
 #include "GLvlTable.h"
+#include "PtLevels.h"
 #include "Main.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -109,14 +110,16 @@ if(Red->State==cbChecked){
  conver(0,0,0,256,vmax,0,&xpc,&ypc);
  Grafica->Canvas->MoveTo(xpc,ypc);
  Grafica->Canvas->Pen->Color=clRed;
-
+  int grayCounter=0;
   for(int i=0; i<256; i++)
   {
    conver(i,pChild->Histo.R[i],0,256,vmax,0,&xpc,&ypc);
    Grafica->Canvas->LineTo(xpc,ypc);
    Grafica->Canvas->LineTo(xpc+1,ypc);
+   if(pChild->Histo.R[i]==0)
+        grayCounter+=1;
   }
-
+  RedLevels->Caption=IntToStr(grayCounter);
  VMaxR->Caption=IntToStr(vmaxR);
  MedianR->Caption=IntToStr(pChild->Histo.medianaR);
  WAR->Caption = FloatToStrF(pChild->Histo.media_ponderadaR,(TFloatFormat)2,5,2);
@@ -125,6 +128,7 @@ if(Red->State==cbChecked){
  CountR->Visible=true;
  CGaugeR->Visible=true;
  PerRed->Visible=true;
+ GroupRedLevels->Visible=true;
  CGaugeR->MaxValue=(float)pChild->Histo.PixelsR;
 
  //PerRed->Caption = FloatToStrF(pChild->Histo.PixelsR,2,5,2);
@@ -140,6 +144,7 @@ else
  CountR->Visible=false;
  CGaugeR->Visible=false;
  PerRed->Visible=false;
+ GroupRedLevels->Visible=false;
 
 }
 
@@ -148,12 +153,16 @@ if(Green->State==cbChecked){
  conver(0,0,0,256,vmax,0,&xpc,&ypc);
  Grafica->Canvas->MoveTo(xpc,ypc);
  Grafica->Canvas->Pen->Color=clGreen;
+ int grayCounter=0;
   for(int i=0; i<256; i++)
   {
    conver(i,pChild->Histo.G[i],0,256,vmax,0,&xpc,&ypc);
    Grafica->Canvas->LineTo(xpc,ypc);
    Grafica->Canvas->LineTo(xpc+1,ypc);
+   if(pChild->Histo.G[i]==0)
+        grayCounter+=1;
   }
+  GreenLevels->Caption=IntToStr(grayCounter);
  VMaxG->Caption=IntToStr(vmaxG);
  MedianG->Caption=IntToStr(pChild->Histo.medianaG);
  WAG->Caption = FloatToStrF(pChild->Histo.media_ponderadaG,(TFloatFormat)2,5,2);
@@ -162,6 +171,7 @@ if(Green->State==cbChecked){
  CountG->Visible=true;
  CGaugeG->Visible=true;
  PerGreen->Visible=true;
+ GroupGreenLevels->Visible=true;
  CGaugeG->MaxValue=(float)pChild->Histo.PixelsG;
 
 }
@@ -174,18 +184,23 @@ else
  CountG->Visible=false;
  CGaugeG->Visible=false;
  PerGreen->Visible=false;
+ GroupGreenLevels->Visible=false;
 }
 ///***************  Dibuja el Histograma para Azul
 if(Blue->State==cbChecked){
  conver(0,0,0,256,vmax,0,&xpc,&ypc);
  Grafica->Canvas->MoveTo(xpc,ypc);
  Grafica->Canvas->Pen->Color=clBlue;
+ int grayCounter=0;
   for(int i=0; i<256; i++)
   {
    conver(i,pChild->Histo.B[i],0,256,vmax,0,&xpc,&ypc);
    Grafica->Canvas->LineTo(xpc,ypc);
    Grafica->Canvas->LineTo(xpc+1,ypc);
+   if(pChild->Histo.B[i]==0)
+        grayCounter+=1;
   }
+  BlueLevels->Caption=IntToStr(grayCounter);
  VMaxB->Caption=IntToStr(vmaxB);
  MedianB->Caption=IntToStr(pChild->Histo.medianaB);
      WAB->Caption = FloatToStrF(pChild->Histo.media_ponderadaB,(TFloatFormat)2,5,2);
@@ -194,6 +209,7 @@ if(Blue->State==cbChecked){
  CountB->Visible=true;
  CGaugeB->Visible=true;
  PerBlue->Visible=true;
+ GroupBlueLevels->Visible=true;
  CGaugeB->MaxValue=(float)pChild->Histo.PixelsB;
 
 }
@@ -207,6 +223,7 @@ else
  CountB->Visible=false;
  CGaugeB->Visible=false;
  PerBlue->Visible=false;
+ GroupBlueLevels->Visible=false;
 }
 
 ///***************  Dibuja el Histograma para Luminancia
@@ -214,6 +231,7 @@ if(Luminosity->State==cbChecked){
  conver(0,0,0,256,vmax,0,&xpc,&ypc);
  Grafica->Canvas->MoveTo(xpc,ypc);
  Grafica->Canvas->Pen->Color=clBlack;
+ GroupGrayLevels->Visible=true;
  int grayCounter=0;
   for(int i=0; i<256; i++)
   {
@@ -247,6 +265,7 @@ else
  CountL->Visible=false;
  CGaugeL->Visible=false;
  PerL->Visible=false;
+ GroupGrayLevels->Visible=false;
 }
 
 
@@ -409,6 +428,12 @@ B=StrToInt(LevelL->Caption);
 void __fastcall THistogramForm::SLTableClick(TObject *Sender)
 {
   MainForm->MCHMissingGrayLevelsClick(Sender);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall THistogramForm::Button2Click(TObject *Sender)
+{
+        MainForm->Plotbasedonlevels1Click(Sender);
 }
 //---------------------------------------------------------------------------
 

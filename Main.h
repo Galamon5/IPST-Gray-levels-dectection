@@ -6,6 +6,7 @@
 #include <math.hpp>
 #include <Classes.hpp>
 #include "GLvlTable.h"
+#include "PtLevels.h"
 #include <ComCtrls.hpp>
 #include <Controls.hpp>
 #include <Dialogs.hpp>
@@ -168,6 +169,7 @@ __published:	// IDE-managed Components
         TAction *AsDimSelection;
         TMenuItem *Weighted21;
         TMenuItem *Missinggraylevels;
+        TMenuItem *Plotbasedonlevels1;
         void __fastcall MHAboutClick(TObject *Sender);
         void __fastcall FileOpenExecute(TObject *Sender);
         void __fastcall FileExitExecute(TObject *Sender);
@@ -214,6 +216,7 @@ __published:	// IDE-managed Components
         void __fastcall MCGWeightedClick(TObject *Sender);
         void __fastcall Weighted21Click(TObject *Sender);
         void __fastcall MCHMissingGrayLevelsClick(TObject *Sender);
+        void __fastcall Plotbasedonlevels1Click(TObject *Sender);
 private:
         String dirApplication;
         MyLUT Original[256];

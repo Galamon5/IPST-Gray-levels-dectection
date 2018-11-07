@@ -1595,13 +1595,13 @@ Screen->Cursor = crDefault;
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::MCHMissingGrayLevelsClick(TObject *Sender)
 {
-
-        grayTable = true;
-        TMDIChild *Child =(TMDIChild *)ActiveMDIChild;
+        HistogramExecute(Sender);
+    grayTable = true;
+TMDIChild *Child =(TMDIChild *)ActiveMDIChild;
   String name="GrayLevelsTable="+ExtractFileName(Child->FileName);
   GrayLevelsTable->pChild=Child;
   GrayLevelsTable->Caption=name;
-  //GrayLevelsTable->NuevoHist();
+  GrayLevelsTable->NuevaTabla();
   GrayLevelsTable->Show();
 }
 //---------------------------------------------------------------------------

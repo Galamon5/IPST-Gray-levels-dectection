@@ -73,6 +73,7 @@ USEFORM("ReconstructionDilationForm.cpp", FormReconstructionDilation);
 USEFORM("EntradaForm.cpp", FormEntrada);
 USEFORM("ChildWin.cpp", MDIChild);
 USEFORM("GLvlTable.cpp", GrayLevelsTable);
+USEFORM("PtLevels.cpp", Plotlevels1);
 //---------------------------------------------------------------------------
 WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
@@ -98,6 +99,7 @@ WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
                  Application->CreateForm(__classid(TFormReconstructionErosion), &FormReconstructionErosion);
                  Application->CreateForm(__classid(TFormReconstructionDilation), &FormReconstructionDilation);
                  Application->CreateForm(__classid(TGrayLevelsTable), &GrayLevelsTable);
+                 Application->CreateForm(__classid(TPlotlevels1), &Plotlevels1);
                  Application->Run();
                  }
         catch (Exception &exception)

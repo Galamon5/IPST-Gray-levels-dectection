@@ -107,7 +107,6 @@ __published:	// IDE-managed Components
         TLabel *Label40;
         TLabel *Label1;
         TLabel *LevelL;
-        TLabel *GrayLevels;
         TImage *ImageL;
         TLabel *Label6;
         TLabel *StdDevL;
@@ -124,8 +123,21 @@ __published:	// IDE-managed Components
         TLabel *PerBlue;
         TLabel *PerL;
         TGroupBox *GroupBox4;
+        TGroupBox *GroupGrayLevels;
         TLabel *Label43;
+        TLabel *GrayLevels;
         TButton *Button1;
+        TLabel *Label44;
+        TGroupBox *GroupRedLevels;
+        TLabel *Label45;
+        TLabel *RedLevels;
+        TGroupBox *GroupGreenLevels;
+        TLabel *Label47;
+        TLabel *GreenLevels;
+        TGroupBox *GroupBlueLevels;
+        TLabel *Label49;
+        TLabel *BlueLevels;
+        TButton *Button2;
         void __fastcall RedClick(TObject *Sender);
         void __fastcall GraficaMouseMove(TObject *Sender,
           TShiftState Shift, int X, int Y);
@@ -134,6 +146,8 @@ __published:	// IDE-managed Components
         void __fastcall OnDestroy(TObject *Sender);
         void __fastcall GraficaClick(TObject *Sender);
         void __fastcall SLTableClick(TObject *Sender);
+        void __fastcall Button2Click(TObject *Sender);
+
 private:
 public:
         TMDIChild *pChild;

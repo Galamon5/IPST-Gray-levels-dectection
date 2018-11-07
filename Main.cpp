@@ -5,6 +5,7 @@
 #pragma hdrstop
 #include "AboutWin.h"
 #include "GLvlTable.h"
+#include "PtLevels.h"
 #include "Main.h"
 #include "HistogramWin.h"
 #include "Operaciones_Log.h"
@@ -1595,9 +1596,9 @@ Screen->Cursor = crDefault;
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::MCHMissingGrayLevelsClick(TObject *Sender)
 {
-
-        grayTable = true;
-        TMDIChild *Child =(TMDIChild *)ActiveMDIChild;
+        HistogramExecute(Sender);
+    grayTable = true;
+TMDIChild *Child =(TMDIChild *)ActiveMDIChild;
   String name="GrayLevelsTable="+ExtractFileName(Child->FileName);
   GrayLevelsTable->pChild=Child;
   GrayLevelsTable->Caption=name;
@@ -1606,4 +1607,10 @@ void __fastcall TMainForm::MCHMissingGrayLevelsClick(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+
+void __fastcall TMainForm::Plotbasedonlevels1Click(TObject *Sender)
+{
+Plotlevels1->Show();
+}
+//---------------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 object HistogramForm: THistogramForm
-  Left = 565
-  Top = 208
+  Left = 339
+  Top = 135
   BiDiMode = bdLeftToRight
   BorderStyle = bsDialog
   Caption = 'Histogram'
@@ -1178,7 +1178,7 @@ object HistogramForm: THistogramForm
       ParentFont = False
     end
   end
-  object GroupBox4: TGroupBox
+  object GroupGrayLevels: TGroupBox
     Left = 8
     Top = 376
     Width = 145
@@ -1200,7 +1200,7 @@ object HistogramForm: THistogramForm
     object GrayLevels: TLabel
       Left = 66
       Top = 40
-      Width = 6
+      Width = 7
       Height = 13
       Caption = '0'
       Font.Charset = DEFAULT_CHARSET

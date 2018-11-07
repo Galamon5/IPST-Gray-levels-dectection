@@ -9,7 +9,7 @@
       operaciones.obj ElemStrucBi.obj Morpho.obj ProcImg.obj StrucEE.obj 
       ZoomInForm.obj ErosionGeodesicForm.obj GeodesicDilationForm.obj 
       ReconstructionErosionForm.obj ReconstructionDilationForm.obj 
-      EntradaForm.obj ChildWin.obj GLvlTable.obj"/>
+      EntradaForm.obj ChildWin.obj GLvlTable.obj PtLevels.obj"/>
     <RESFILES value="IPST.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
@@ -18,7 +18,8 @@
       Normalizar.dfm Resolution.dfm Resolution1.dfm Zoom.dfm ZoomNe.dfm 
       operaciones.dfm ElemStrucBi.dfm ZoomInForm.dfm ErosionGeodesicForm.dfm 
       GeodesicDilationForm.dfm ReconstructionErosionForm.dfm 
-      ReconstructionDilationForm.dfm EntradaForm.dfm ChildWin.dfm GLvlTable.dfm"/>
+      ReconstructionDilationForm.dfm EntradaForm.dfm ChildWin.dfm GLvlTable.dfm 
+      PtLevels.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value="bcb2kaxserver.lib tee.lib dbrtl.lib vcldb.lib SUIPackC6.lib vclx.lib 
       bcbsmp.lib vcl.lib rtl.lib"/>
@@ -91,6 +92,7 @@
       <FILE FILENAME="EntradaForm.cpp" FORMNAME="FormEntrada" UNITNAME="EntradaForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="ChildWin.cpp" FORMNAME="MDIChild" UNITNAME="ChildWin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="GLvlTable.cpp" FORMNAME="GrayLevelsTable" UNITNAME="GLvlTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PtLevels.cpp" FORMNAME="Plotlevels1" UNITNAME="PtLevels" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>

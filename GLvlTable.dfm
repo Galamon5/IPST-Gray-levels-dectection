@@ -1,11 +1,10 @@
 object GrayLevelsTable: TGrayLevelsTable
-  Left = 436
-  Top = 229
+  Left = -789
+  Top = 111
   Width = 695
   Height = 721
   HorzScrollBar.Increment = 36
   VertScrollBar.Increment = 42
-  VertScrollBar.Position = 127
   VertScrollBar.Tracking = True
   Caption = 'GrayLevelsTable'
   Color = clBtnFace
@@ -21,7 +20,7 @@ object GrayLevelsTable: TGrayLevelsTable
   TextHeight = 13
   object Label0: TLabel
     Left = 0
-    Top = -127
+    Top = 0
     Width = 43
     Height = 16
     Caption = 'Level 0'
@@ -34,7 +33,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label1: TLabel
     Left = 0
-    Top = -111
+    Top = 16
     Width = 43
     Height = 16
     Caption = 'Level 1'
@@ -47,7 +46,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label2: TLabel
     Left = 0
-    Top = -95
+    Top = 32
     Width = 43
     Height = 16
     Caption = 'Level 2'
@@ -60,7 +59,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label3: TLabel
     Left = 0
-    Top = -79
+    Top = 48
     Width = 43
     Height = 16
     Caption = 'Level 3'
@@ -73,7 +72,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label4: TLabel
     Left = 0
-    Top = -63
+    Top = 64
     Width = 43
     Height = 16
     Caption = 'Level 4'
@@ -86,7 +85,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label5: TLabel
     Left = 0
-    Top = -47
+    Top = 80
     Width = 43
     Height = 16
     Caption = 'Level 5'
@@ -99,7 +98,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label6: TLabel
     Left = 0
-    Top = -31
+    Top = 96
     Width = 43
     Height = 16
     Caption = 'Level 6'
@@ -112,7 +111,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label7: TLabel
     Left = 0
-    Top = -15
+    Top = 112
     Width = 43
     Height = 16
     Caption = 'Level 7'
@@ -125,7 +124,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label8: TLabel
     Left = 0
-    Top = 1
+    Top = 128
     Width = 43
     Height = 16
     Caption = 'Level 8'
@@ -138,7 +137,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label9: TLabel
     Left = 0
-    Top = 17
+    Top = 144
     Width = 43
     Height = 16
     Caption = 'Level 9'
@@ -151,7 +150,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label10: TLabel
     Left = 0
-    Top = 33
+    Top = 160
     Width = 50
     Height = 16
     Caption = 'Level 10'
@@ -164,7 +163,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label11: TLabel
     Left = 0
-    Top = 49
+    Top = 176
     Width = 50
     Height = 16
     Caption = 'Level 11'
@@ -177,7 +176,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label12: TLabel
     Left = 0
-    Top = 65
+    Top = 192
     Width = 50
     Height = 16
     Caption = 'Level 12'
@@ -190,7 +189,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label13: TLabel
     Left = 0
-    Top = 81
+    Top = 208
     Width = 50
     Height = 16
     Caption = 'Level 13'
@@ -203,7 +202,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label14: TLabel
     Left = 0
-    Top = 97
+    Top = 224
     Width = 50
     Height = 16
     Caption = 'Level 14'
@@ -216,7 +215,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label15: TLabel
     Left = 0
-    Top = 113
+    Top = 240
     Width = 50
     Height = 16
     Caption = 'Level 15'
@@ -229,7 +228,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label16: TLabel
     Left = 0
-    Top = 129
+    Top = 256
     Width = 50
     Height = 16
     Caption = 'Level 16'
@@ -242,7 +241,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label17: TLabel
     Left = 0
-    Top = 145
+    Top = 272
     Width = 50
     Height = 16
     Caption = 'Level 17'
@@ -255,7 +254,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label18: TLabel
     Left = 0
-    Top = 161
+    Top = 288
     Width = 50
     Height = 16
     Caption = 'Level 18'
@@ -268,7 +267,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label19: TLabel
     Left = 0
-    Top = 177
+    Top = 304
     Width = 50
     Height = 16
     Caption = 'Level 19'
@@ -281,7 +280,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label20: TLabel
     Left = 0
-    Top = 193
+    Top = 320
     Width = 50
     Height = 16
     Caption = 'Level 20'
@@ -294,7 +293,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label21: TLabel
     Left = 0
-    Top = 209
+    Top = 336
     Width = 50
     Height = 16
     Caption = 'Level 21'
@@ -307,7 +306,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label22: TLabel
     Left = 0
-    Top = 225
+    Top = 352
     Width = 50
     Height = 16
     Caption = 'Level 22'
@@ -320,7 +319,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label23: TLabel
     Left = 0
-    Top = 241
+    Top = 368
     Width = 50
     Height = 16
     Caption = 'Level 23'
@@ -333,7 +332,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label24: TLabel
     Left = 0
-    Top = 257
+    Top = 384
     Width = 50
     Height = 16
     Caption = 'Level 24'
@@ -346,7 +345,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label25: TLabel
     Left = 0
-    Top = 273
+    Top = 400
     Width = 50
     Height = 16
     Caption = 'Level 25'
@@ -359,7 +358,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label26: TLabel
     Left = 0
-    Top = 289
+    Top = 416
     Width = 50
     Height = 16
     Caption = 'Level 26'
@@ -372,7 +371,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label27: TLabel
     Left = 0
-    Top = 305
+    Top = 432
     Width = 50
     Height = 16
     Caption = 'Level 27'
@@ -385,9 +384,9 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label28: TLabel
     Left = 0
-    Top = 321
+    Top = 448
     Width = 50
-    Height = 17
+    Height = 16
     Caption = 'Level 28'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -398,7 +397,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label29: TLabel
     Left = 0
-    Top = 337
+    Top = 464
     Width = 50
     Height = 16
     Caption = 'Level 29'
@@ -411,7 +410,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label30: TLabel
     Left = 0
-    Top = 353
+    Top = 480
     Width = 50
     Height = 16
     Caption = 'Level 30'
@@ -424,7 +423,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label31: TLabel
     Left = 0
-    Top = 369
+    Top = 496
     Width = 50
     Height = 16
     Caption = 'Level 31'
@@ -437,7 +436,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label32: TLabel
     Left = 0
-    Top = 385
+    Top = 512
     Width = 50
     Height = 16
     Caption = 'Level 32'
@@ -450,7 +449,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label33: TLabel
     Left = 0
-    Top = 401
+    Top = 528
     Width = 50
     Height = 16
     Caption = 'Level 33'
@@ -463,7 +462,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label34: TLabel
     Left = 0
-    Top = 417
+    Top = 544
     Width = 50
     Height = 16
     Caption = 'Level 34'
@@ -476,7 +475,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label35: TLabel
     Left = 0
-    Top = 433
+    Top = 560
     Width = 50
     Height = 16
     Caption = 'Level 35'
@@ -489,7 +488,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label36: TLabel
     Left = 0
-    Top = 449
+    Top = 576
     Width = 50
     Height = 16
     Caption = 'Level 36'
@@ -502,7 +501,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label37: TLabel
     Left = 0
-    Top = 465
+    Top = 592
     Width = 50
     Height = 16
     Caption = 'Level 37'
@@ -515,7 +514,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label38: TLabel
     Left = 0
-    Top = 483
+    Top = 610
     Width = 50
     Height = 16
     Caption = 'Level 38'
@@ -528,7 +527,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label39: TLabel
     Left = 0
-    Top = 497
+    Top = 624
     Width = 50
     Height = 16
     Caption = 'Level 39'
@@ -541,7 +540,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label40: TLabel
     Left = 0
-    Top = 513
+    Top = 640
     Width = 50
     Height = 16
     Caption = 'Level 40'
@@ -554,7 +553,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label41: TLabel
     Left = 0
-    Top = 529
+    Top = 656
     Width = 50
     Height = 16
     Caption = 'Level 41'
@@ -567,7 +566,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label42: TLabel
     Left = 0
-    Top = 545
+    Top = 672
     Width = 50
     Height = 16
     Caption = 'Level 42'
@@ -580,7 +579,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label43: TLabel
     Left = 0
-    Top = 561
+    Top = 688
     Width = 50
     Height = 16
     Caption = 'Level 43'
@@ -593,9 +592,9 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label44: TLabel
     Left = 0
-    Top = 577
+    Top = 704
     Width = 50
-    Height = 24
+    Height = 16
     Caption = 'Level 44'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -606,7 +605,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label45: TLabel
     Left = 0
-    Top = 591
+    Top = 718
     Width = 50
     Height = 16
     Caption = 'Level 45'
@@ -619,7 +618,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label46: TLabel
     Left = 0
-    Top = 605
+    Top = 732
     Width = 50
     Height = 16
     Caption = 'Level 46'
@@ -632,7 +631,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label47: TLabel
     Left = 0
-    Top = 621
+    Top = 748
     Width = 50
     Height = 16
     Caption = 'Level 47'
@@ -645,7 +644,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label48: TLabel
     Left = 0
-    Top = 635
+    Top = 762
     Width = 50
     Height = 16
     Caption = 'Level 48'
@@ -658,7 +657,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label49: TLabel
     Left = 0
-    Top = 651
+    Top = 778
     Width = 50
     Height = 16
     Caption = 'Level 49'
@@ -671,7 +670,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label50: TLabel
     Left = 0
-    Top = 665
+    Top = 792
     Width = 50
     Height = 16
     Caption = 'Level 50'
@@ -684,7 +683,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label51: TLabel
     Left = 112
-    Top = -127
+    Top = 0
     Width = 50
     Height = 16
     Caption = 'Level 51'
@@ -697,7 +696,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label52: TLabel
     Left = 112
-    Top = -111
+    Top = 16
     Width = 50
     Height = 16
     Caption = 'Level 52'
@@ -710,7 +709,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label53: TLabel
     Left = 112
-    Top = -95
+    Top = 32
     Width = 50
     Height = 16
     Caption = 'Level 53'
@@ -723,7 +722,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label54: TLabel
     Left = 112
-    Top = -79
+    Top = 48
     Width = 50
     Height = 16
     Caption = 'Level 54'
@@ -736,7 +735,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label55: TLabel
     Left = 112
-    Top = -63
+    Top = 64
     Width = 50
     Height = 16
     Caption = 'Level 55'
@@ -749,7 +748,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label56: TLabel
     Left = 112
-    Top = -47
+    Top = 80
     Width = 50
     Height = 16
     Caption = 'Level 56'
@@ -762,7 +761,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label57: TLabel
     Left = 112
-    Top = -31
+    Top = 96
     Width = 50
     Height = 16
     Caption = 'Level 57'
@@ -775,7 +774,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label58: TLabel
     Left = 112
-    Top = -15
+    Top = 112
     Width = 50
     Height = 16
     Caption = 'Level 58'
@@ -788,7 +787,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label59: TLabel
     Left = 112
-    Top = 1
+    Top = 128
     Width = 50
     Height = 16
     Caption = 'Level 59'
@@ -801,7 +800,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label60: TLabel
     Left = 112
-    Top = 17
+    Top = 144
     Width = 50
     Height = 16
     Caption = 'Level 60'
@@ -814,7 +813,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label61: TLabel
     Left = 112
-    Top = 33
+    Top = 160
     Width = 50
     Height = 16
     Caption = 'Level 61'
@@ -827,7 +826,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label62: TLabel
     Left = 112
-    Top = 49
+    Top = 176
     Width = 50
     Height = 16
     Caption = 'Level 62'
@@ -840,7 +839,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label63: TLabel
     Left = 112
-    Top = 65
+    Top = 192
     Width = 50
     Height = 16
     Caption = 'Level 63'
@@ -853,7 +852,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label64: TLabel
     Left = 112
-    Top = 81
+    Top = 208
     Width = 50
     Height = 16
     Caption = 'Level 64'
@@ -866,7 +865,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label65: TLabel
     Left = 112
-    Top = 97
+    Top = 224
     Width = 50
     Height = 16
     Caption = 'Level 65'
@@ -879,7 +878,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label66: TLabel
     Left = 112
-    Top = 113
+    Top = 240
     Width = 50
     Height = 16
     Caption = 'Level 66'
@@ -892,7 +891,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label67: TLabel
     Left = 112
-    Top = 129
+    Top = 256
     Width = 50
     Height = 16
     Caption = 'Level 67'
@@ -905,7 +904,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label68: TLabel
     Left = 112
-    Top = 145
+    Top = 272
     Width = 50
     Height = 16
     Caption = 'Level 68'
@@ -918,7 +917,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label69: TLabel
     Left = 112
-    Top = 161
+    Top = 288
     Width = 50
     Height = 16
     Caption = 'Level 69'
@@ -931,7 +930,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label70: TLabel
     Left = 112
-    Top = 177
+    Top = 304
     Width = 50
     Height = 16
     Caption = 'Level 70'
@@ -944,7 +943,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label71: TLabel
     Left = 112
-    Top = 193
+    Top = 320
     Width = 50
     Height = 16
     Caption = 'Level 71'
@@ -957,7 +956,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label72: TLabel
     Left = 112
-    Top = 209
+    Top = 336
     Width = 50
     Height = 16
     Caption = 'Level 72'
@@ -970,7 +969,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label73: TLabel
     Left = 112
-    Top = 225
+    Top = 352
     Width = 50
     Height = 16
     Caption = 'Level 73'
@@ -983,7 +982,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label74: TLabel
     Left = 112
-    Top = 241
+    Top = 368
     Width = 50
     Height = 16
     Caption = 'Level 74'
@@ -996,7 +995,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label75: TLabel
     Left = 112
-    Top = 257
+    Top = 384
     Width = 50
     Height = 16
     Caption = 'Level 75'
@@ -1009,7 +1008,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label76: TLabel
     Left = 112
-    Top = 273
+    Top = 400
     Width = 50
     Height = 16
     Caption = 'Level 76'
@@ -1022,7 +1021,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label77: TLabel
     Left = 112
-    Top = 289
+    Top = 416
     Width = 50
     Height = 16
     Caption = 'Level 77'
@@ -1035,7 +1034,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label78: TLabel
     Left = 112
-    Top = 305
+    Top = 432
     Width = 50
     Height = 16
     Caption = 'Level 78'
@@ -1048,7 +1047,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label79: TLabel
     Left = 112
-    Top = 321
+    Top = 448
     Width = 50
     Height = 16
     Caption = 'Level 79'
@@ -1061,7 +1060,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label80: TLabel
     Left = 112
-    Top = 337
+    Top = 464
     Width = 50
     Height = 16
     Caption = 'Level 80'
@@ -1074,7 +1073,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label81: TLabel
     Left = 112
-    Top = 353
+    Top = 480
     Width = 50
     Height = 16
     Caption = 'Level 81'
@@ -1087,7 +1086,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label82: TLabel
     Left = 112
-    Top = 369
+    Top = 496
     Width = 50
     Height = 16
     Caption = 'Level 82'
@@ -1100,7 +1099,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label83: TLabel
     Left = 112
-    Top = 385
+    Top = 512
     Width = 50
     Height = 16
     Caption = 'Level 83'
@@ -1113,7 +1112,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label84: TLabel
     Left = 112
-    Top = 401
+    Top = 528
     Width = 50
     Height = 16
     Caption = 'Level 84'
@@ -1126,7 +1125,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label85: TLabel
     Left = 112
-    Top = 417
+    Top = 544
     Width = 50
     Height = 16
     Caption = 'Level 85'
@@ -1139,7 +1138,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label86: TLabel
     Left = 112
-    Top = 433
+    Top = 560
     Width = 50
     Height = 16
     Caption = 'Level 86'
@@ -1152,7 +1151,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label87: TLabel
     Left = 112
-    Top = 449
+    Top = 576
     Width = 50
     Height = 16
     Caption = 'Level 87'
@@ -1165,7 +1164,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label88: TLabel
     Left = 112
-    Top = 465
+    Top = 592
     Width = 50
     Height = 16
     Caption = 'Level 88'
@@ -1178,7 +1177,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label89: TLabel
     Left = 112
-    Top = 483
+    Top = 610
     Width = 50
     Height = 16
     Caption = 'Level 89'
@@ -1191,7 +1190,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label90: TLabel
     Left = 112
-    Top = 497
+    Top = 624
     Width = 50
     Height = 16
     Caption = 'Level 90'
@@ -1204,7 +1203,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label91: TLabel
     Left = 112
-    Top = 513
+    Top = 640
     Width = 50
     Height = 16
     Caption = 'Level 91'
@@ -1217,7 +1216,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label92: TLabel
     Left = 112
-    Top = 529
+    Top = 656
     Width = 50
     Height = 16
     Caption = 'Level 92'
@@ -1230,7 +1229,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label93: TLabel
     Left = 112
-    Top = 545
+    Top = 672
     Width = 50
     Height = 16
     Caption = 'Level 93'
@@ -1243,7 +1242,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label94: TLabel
     Left = 112
-    Top = 561
+    Top = 688
     Width = 50
     Height = 16
     Caption = 'Level 94'
@@ -1256,7 +1255,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label95: TLabel
     Left = 112
-    Top = 577
+    Top = 704
     Width = 50
     Height = 16
     Caption = 'Level 95'
@@ -1269,7 +1268,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label96: TLabel
     Left = 112
-    Top = 591
+    Top = 718
     Width = 50
     Height = 16
     Caption = 'Level 96'
@@ -1282,7 +1281,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label97: TLabel
     Left = 112
-    Top = 605
+    Top = 732
     Width = 50
     Height = 16
     Caption = 'Level 97'
@@ -1295,7 +1294,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label98: TLabel
     Left = 112
-    Top = 621
+    Top = 748
     Width = 50
     Height = 16
     Caption = 'Level 98'
@@ -1308,7 +1307,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label99: TLabel
     Left = 112
-    Top = 635
+    Top = 762
     Width = 50
     Height = 16
     Caption = 'Level 99'
@@ -1321,7 +1320,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label100: TLabel
     Left = 112
-    Top = 651
+    Top = 778
     Width = 57
     Height = 16
     Caption = 'Level 100'
@@ -1334,7 +1333,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label101: TLabel
     Left = 112
-    Top = 666
+    Top = 793
     Width = 57
     Height = 16
     Caption = 'Level 101'
@@ -1347,7 +1346,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label102: TLabel
     Left = 224
-    Top = -127
+    Top = 0
     Width = 57
     Height = 16
     Caption = 'Level 102'
@@ -1360,7 +1359,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label103: TLabel
     Left = 224
-    Top = -111
+    Top = 16
     Width = 57
     Height = 16
     Caption = 'Level 103'
@@ -1373,7 +1372,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label104: TLabel
     Left = 224
-    Top = -95
+    Top = 32
     Width = 57
     Height = 16
     Caption = 'Level 104'
@@ -1386,7 +1385,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label105: TLabel
     Left = 224
-    Top = -79
+    Top = 48
     Width = 57
     Height = 16
     Caption = 'Level 105'
@@ -1399,7 +1398,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label106: TLabel
     Left = 224
-    Top = -63
+    Top = 64
     Width = 57
     Height = 16
     Caption = 'Level 106'
@@ -1412,7 +1411,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label107: TLabel
     Left = 224
-    Top = -47
+    Top = 80
     Width = 57
     Height = 16
     Caption = 'Level 107'
@@ -1425,7 +1424,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label108: TLabel
     Left = 224
-    Top = -31
+    Top = 96
     Width = 57
     Height = 16
     Caption = 'Level 108'
@@ -1438,7 +1437,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label109: TLabel
     Left = 224
-    Top = -15
+    Top = 112
     Width = 57
     Height = 16
     Caption = 'Level 109'
@@ -1451,7 +1450,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label110: TLabel
     Left = 224
-    Top = 1
+    Top = 128
     Width = 57
     Height = 16
     Caption = 'Level 110'
@@ -1464,7 +1463,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label111: TLabel
     Left = 224
-    Top = 17
+    Top = 144
     Width = 57
     Height = 16
     Caption = 'Level 111'
@@ -1477,7 +1476,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label112: TLabel
     Left = 224
-    Top = 33
+    Top = 160
     Width = 57
     Height = 16
     Caption = 'Level 112'
@@ -1490,7 +1489,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label113: TLabel
     Left = 224
-    Top = 49
+    Top = 176
     Width = 57
     Height = 16
     Caption = 'Level 113'
@@ -1503,7 +1502,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label114: TLabel
     Left = 224
-    Top = 65
+    Top = 192
     Width = 57
     Height = 16
     Caption = 'Level 114'
@@ -1516,7 +1515,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label115: TLabel
     Left = 224
-    Top = 81
+    Top = 208
     Width = 57
     Height = 16
     Caption = 'Level 115'
@@ -1529,7 +1528,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label116: TLabel
     Left = 224
-    Top = 97
+    Top = 224
     Width = 57
     Height = 16
     Caption = 'Level 116'
@@ -1542,7 +1541,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label117: TLabel
     Left = 224
-    Top = 113
+    Top = 240
     Width = 57
     Height = 16
     Caption = 'Level 117'
@@ -1555,7 +1554,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label118: TLabel
     Left = 224
-    Top = 129
+    Top = 256
     Width = 57
     Height = 16
     Caption = 'Level 118'
@@ -1568,7 +1567,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label119: TLabel
     Left = 224
-    Top = 145
+    Top = 272
     Width = 57
     Height = 16
     Caption = 'Level 119'
@@ -1581,7 +1580,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label120: TLabel
     Left = 224
-    Top = 161
+    Top = 288
     Width = 57
     Height = 16
     Caption = 'Level 120'
@@ -1594,7 +1593,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label121: TLabel
     Left = 224
-    Top = 177
+    Top = 304
     Width = 57
     Height = 16
     Caption = 'Level 121'
@@ -1607,7 +1606,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label122: TLabel
     Left = 224
-    Top = 193
+    Top = 320
     Width = 57
     Height = 16
     Caption = 'Level 122'
@@ -1620,7 +1619,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label123: TLabel
     Left = 224
-    Top = 209
+    Top = 336
     Width = 57
     Height = 16
     Caption = 'Level 123'
@@ -1633,7 +1632,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label124: TLabel
     Left = 224
-    Top = 225
+    Top = 352
     Width = 57
     Height = 16
     Caption = 'Level 124'
@@ -1646,7 +1645,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label125: TLabel
     Left = 224
-    Top = 241
+    Top = 368
     Width = 57
     Height = 16
     Caption = 'Level 125'
@@ -1659,7 +1658,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label126: TLabel
     Left = 224
-    Top = 257
+    Top = 384
     Width = 57
     Height = 16
     Caption = 'Level 126'
@@ -1672,7 +1671,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label127: TLabel
     Left = 224
-    Top = 273
+    Top = 400
     Width = 57
     Height = 16
     Caption = 'Level 127'
@@ -1685,7 +1684,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label128: TLabel
     Left = 224
-    Top = 289
+    Top = 416
     Width = 57
     Height = 16
     Caption = 'Level 128'
@@ -1698,7 +1697,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label129: TLabel
     Left = 224
-    Top = 305
+    Top = 432
     Width = 57
     Height = 16
     Caption = 'Level 129'
@@ -1711,7 +1710,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label130: TLabel
     Left = 224
-    Top = 321
+    Top = 448
     Width = 57
     Height = 16
     Caption = 'Level 130'
@@ -1724,7 +1723,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label131: TLabel
     Left = 224
-    Top = 337
+    Top = 464
     Width = 57
     Height = 16
     Caption = 'Level 131'
@@ -1737,7 +1736,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label132: TLabel
     Left = 224
-    Top = 353
+    Top = 480
     Width = 57
     Height = 16
     Caption = 'Level 132'
@@ -1750,7 +1749,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label133: TLabel
     Left = 224
-    Top = 369
+    Top = 496
     Width = 57
     Height = 16
     Caption = 'Level 133'
@@ -1763,7 +1762,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label134: TLabel
     Left = 224
-    Top = 385
+    Top = 512
     Width = 57
     Height = 16
     Caption = 'Level 134'
@@ -1776,7 +1775,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label135: TLabel
     Left = 224
-    Top = 401
+    Top = 528
     Width = 57
     Height = 16
     Caption = 'Level 135'
@@ -1789,7 +1788,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label136: TLabel
     Left = 224
-    Top = 417
+    Top = 544
     Width = 57
     Height = 16
     Caption = 'Level 136'
@@ -1802,7 +1801,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label137: TLabel
     Left = 224
-    Top = 433
+    Top = 560
     Width = 57
     Height = 16
     Caption = 'Level 137'
@@ -1815,7 +1814,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label138: TLabel
     Left = 224
-    Top = 449
+    Top = 576
     Width = 57
     Height = 16
     Caption = 'Level 138'
@@ -1828,7 +1827,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label139: TLabel
     Left = 224
-    Top = 465
+    Top = 592
     Width = 57
     Height = 16
     Caption = 'Level 139'
@@ -1841,7 +1840,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label140: TLabel
     Left = 224
-    Top = 483
+    Top = 610
     Width = 57
     Height = 16
     Caption = 'Level 140'
@@ -1854,7 +1853,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label141: TLabel
     Left = 224
-    Top = 497
+    Top = 624
     Width = 57
     Height = 16
     Caption = 'Level 141'
@@ -1867,7 +1866,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label142: TLabel
     Left = 224
-    Top = 513
+    Top = 640
     Width = 57
     Height = 16
     Caption = 'Level 142'
@@ -1880,7 +1879,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label143: TLabel
     Left = 224
-    Top = 529
+    Top = 656
     Width = 57
     Height = 16
     Caption = 'Level 143'
@@ -1893,7 +1892,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label144: TLabel
     Left = 224
-    Top = 545
+    Top = 672
     Width = 57
     Height = 16
     Caption = 'Level 144'
@@ -1906,7 +1905,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label145: TLabel
     Left = 224
-    Top = 561
+    Top = 688
     Width = 57
     Height = 16
     Caption = 'Level 145'
@@ -1919,7 +1918,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label146: TLabel
     Left = 224
-    Top = 577
+    Top = 704
     Width = 57
     Height = 16
     Caption = 'Level 146'
@@ -1932,7 +1931,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label147: TLabel
     Left = 224
-    Top = 591
+    Top = 718
     Width = 57
     Height = 16
     Caption = 'Level 147'
@@ -1945,7 +1944,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label148: TLabel
     Left = 224
-    Top = 605
+    Top = 732
     Width = 57
     Height = 16
     Caption = 'Level 148'
@@ -1958,7 +1957,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label149: TLabel
     Left = 224
-    Top = 621
+    Top = 748
     Width = 57
     Height = 16
     Caption = 'Level 149'
@@ -1971,7 +1970,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label150: TLabel
     Left = 224
-    Top = 635
+    Top = 762
     Width = 57
     Height = 16
     Caption = 'Level 150'
@@ -1984,7 +1983,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label151: TLabel
     Left = 224
-    Top = 651
+    Top = 778
     Width = 57
     Height = 16
     Caption = 'Level 151'
@@ -1997,7 +1996,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label152: TLabel
     Left = 224
-    Top = 666
+    Top = 793
     Width = 57
     Height = 16
     Caption = 'Level 152'
@@ -2010,7 +2009,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label153: TLabel
     Left = 336
-    Top = -127
+    Top = 0
     Width = 57
     Height = 16
     Caption = 'Level 153'
@@ -2023,7 +2022,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label154: TLabel
     Left = 336
-    Top = -111
+    Top = 16
     Width = 57
     Height = 16
     Caption = 'Level 154'
@@ -2036,7 +2035,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label155: TLabel
     Left = 336
-    Top = -95
+    Top = 32
     Width = 57
     Height = 16
     Caption = 'Level 155'
@@ -2049,7 +2048,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label156: TLabel
     Left = 336
-    Top = -79
+    Top = 48
     Width = 57
     Height = 16
     Caption = 'Level 156'
@@ -2062,7 +2061,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label157: TLabel
     Left = 336
-    Top = -63
+    Top = 64
     Width = 57
     Height = 16
     Caption = 'Level 157'
@@ -2075,7 +2074,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label158: TLabel
     Left = 336
-    Top = -47
+    Top = 80
     Width = 57
     Height = 16
     Caption = 'Level 158'
@@ -2088,7 +2087,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label159: TLabel
     Left = 336
-    Top = -31
+    Top = 96
     Width = 57
     Height = 16
     Caption = 'Level 159'
@@ -2101,7 +2100,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label160: TLabel
     Left = 336
-    Top = -15
+    Top = 112
     Width = 57
     Height = 16
     Caption = 'Level 160'
@@ -2114,7 +2113,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label161: TLabel
     Left = 336
-    Top = 1
+    Top = 128
     Width = 57
     Height = 16
     Caption = 'Level 161'
@@ -2127,7 +2126,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label162: TLabel
     Left = 336
-    Top = 17
+    Top = 144
     Width = 57
     Height = 16
     Caption = 'Level 162'
@@ -2140,7 +2139,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label163: TLabel
     Left = 336
-    Top = 33
+    Top = 160
     Width = 57
     Height = 16
     Caption = 'Level 163'
@@ -2153,7 +2152,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label164: TLabel
     Left = 336
-    Top = 49
+    Top = 176
     Width = 57
     Height = 16
     Caption = 'Level 164'
@@ -2166,7 +2165,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label165: TLabel
     Left = 336
-    Top = 65
+    Top = 192
     Width = 57
     Height = 16
     Caption = 'Level 165'
@@ -2179,7 +2178,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label166: TLabel
     Left = 336
-    Top = 81
+    Top = 208
     Width = 57
     Height = 16
     Caption = 'Level 166'
@@ -2192,7 +2191,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label167: TLabel
     Left = 336
-    Top = 97
+    Top = 224
     Width = 57
     Height = 16
     Caption = 'Level 167'
@@ -2205,7 +2204,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label168: TLabel
     Left = 336
-    Top = 113
+    Top = 240
     Width = 57
     Height = 16
     Caption = 'Level 168'
@@ -2218,7 +2217,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label169: TLabel
     Left = 336
-    Top = 129
+    Top = 256
     Width = 57
     Height = 16
     Caption = 'Level 169'
@@ -2231,7 +2230,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label170: TLabel
     Left = 336
-    Top = 145
+    Top = 272
     Width = 57
     Height = 16
     Caption = 'Level 170'
@@ -2244,7 +2243,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label171: TLabel
     Left = 336
-    Top = 161
+    Top = 288
     Width = 57
     Height = 16
     Caption = 'Level 171'
@@ -2257,7 +2256,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label172: TLabel
     Left = 336
-    Top = 177
+    Top = 304
     Width = 57
     Height = 16
     Caption = 'Level 172'
@@ -2270,7 +2269,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label173: TLabel
     Left = 336
-    Top = 193
+    Top = 320
     Width = 57
     Height = 16
     Caption = 'Level 173'
@@ -2283,7 +2282,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label174: TLabel
     Left = 336
-    Top = 209
+    Top = 336
     Width = 57
     Height = 16
     Caption = 'Level 174'
@@ -2296,7 +2295,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label175: TLabel
     Left = 336
-    Top = 225
+    Top = 352
     Width = 57
     Height = 16
     Caption = 'Level 175'
@@ -2309,7 +2308,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label176: TLabel
     Left = 336
-    Top = 241
+    Top = 368
     Width = 57
     Height = 16
     Caption = 'Level 176'
@@ -2322,7 +2321,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label177: TLabel
     Left = 336
-    Top = 257
+    Top = 384
     Width = 57
     Height = 16
     Caption = 'Level 177'
@@ -2335,7 +2334,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label178: TLabel
     Left = 336
-    Top = 273
+    Top = 400
     Width = 57
     Height = 16
     Caption = 'Level 178'
@@ -2348,7 +2347,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label179: TLabel
     Left = 336
-    Top = 289
+    Top = 416
     Width = 57
     Height = 16
     Caption = 'Level 179'
@@ -2361,7 +2360,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label180: TLabel
     Left = 336
-    Top = 305
+    Top = 432
     Width = 57
     Height = 16
     Caption = 'Level 180'
@@ -2374,7 +2373,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label181: TLabel
     Left = 336
-    Top = 321
+    Top = 448
     Width = 57
     Height = 16
     Caption = 'Level 181'
@@ -2387,7 +2386,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label182: TLabel
     Left = 336
-    Top = 337
+    Top = 464
     Width = 57
     Height = 16
     Caption = 'Level 182'
@@ -2400,7 +2399,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label183: TLabel
     Left = 336
-    Top = 353
+    Top = 480
     Width = 57
     Height = 16
     Caption = 'Level 183'
@@ -2413,7 +2412,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label184: TLabel
     Left = 336
-    Top = 369
+    Top = 496
     Width = 57
     Height = 16
     Caption = 'Level 184'
@@ -2426,7 +2425,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label185: TLabel
     Left = 336
-    Top = 385
+    Top = 512
     Width = 57
     Height = 16
     Caption = 'Level 185'
@@ -2439,7 +2438,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label186: TLabel
     Left = 336
-    Top = 401
+    Top = 528
     Width = 57
     Height = 16
     Caption = 'Level 186'
@@ -2452,7 +2451,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label187: TLabel
     Left = 336
-    Top = 417
+    Top = 544
     Width = 57
     Height = 16
     Caption = 'Level 187'
@@ -2465,7 +2464,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label188: TLabel
     Left = 336
-    Top = 433
+    Top = 560
     Width = 57
     Height = 16
     Caption = 'Level 188'
@@ -2478,7 +2477,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label189: TLabel
     Left = 336
-    Top = 449
+    Top = 576
     Width = 57
     Height = 16
     Caption = 'Level 189'
@@ -2491,7 +2490,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label190: TLabel
     Left = 336
-    Top = 465
+    Top = 592
     Width = 57
     Height = 16
     Caption = 'Level 190'
@@ -2504,7 +2503,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label191: TLabel
     Left = 336
-    Top = 483
+    Top = 610
     Width = 57
     Height = 16
     Caption = 'Level 191'
@@ -2517,7 +2516,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label192: TLabel
     Left = 336
-    Top = 497
+    Top = 624
     Width = 57
     Height = 16
     Caption = 'Level 192'
@@ -2530,7 +2529,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label193: TLabel
     Left = 336
-    Top = 513
+    Top = 640
     Width = 57
     Height = 16
     Caption = 'Level 193'
@@ -2543,7 +2542,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label194: TLabel
     Left = 336
-    Top = 529
+    Top = 656
     Width = 57
     Height = 16
     Caption = 'Level 194'
@@ -2556,7 +2555,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label195: TLabel
     Left = 336
-    Top = 545
+    Top = 672
     Width = 57
     Height = 16
     Caption = 'Level 195'
@@ -2569,7 +2568,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label196: TLabel
     Left = 336
-    Top = 561
+    Top = 688
     Width = 57
     Height = 16
     Caption = 'Level 196'
@@ -2582,7 +2581,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label197: TLabel
     Left = 336
-    Top = 577
+    Top = 704
     Width = 57
     Height = 16
     Caption = 'Level 197'
@@ -2595,7 +2594,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label198: TLabel
     Left = 336
-    Top = 591
+    Top = 718
     Width = 57
     Height = 16
     Caption = 'Level 198'
@@ -2608,7 +2607,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label199: TLabel
     Left = 336
-    Top = 605
+    Top = 732
     Width = 57
     Height = 16
     Caption = 'Level 199'
@@ -2621,7 +2620,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label200: TLabel
     Left = 336
-    Top = 621
+    Top = 748
     Width = 57
     Height = 16
     Caption = 'Level 200'
@@ -2634,7 +2633,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label201: TLabel
     Left = 336
-    Top = 635
+    Top = 762
     Width = 57
     Height = 16
     Caption = 'Level 201'
@@ -2647,7 +2646,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label202: TLabel
     Left = 336
-    Top = 651
+    Top = 778
     Width = 57
     Height = 16
     Caption = 'Level 202'
@@ -2660,7 +2659,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label203: TLabel
     Left = 336
-    Top = 666
+    Top = 793
     Width = 57
     Height = 16
     Caption = 'Level 203'
@@ -2673,7 +2672,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label204: TLabel
     Left = 448
-    Top = -127
+    Top = 0
     Width = 57
     Height = 16
     Caption = 'Level 204'
@@ -2686,7 +2685,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label205: TLabel
     Left = 448
-    Top = -111
+    Top = 16
     Width = 57
     Height = 16
     Caption = 'Level 205'
@@ -2699,7 +2698,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label206: TLabel
     Left = 448
-    Top = -95
+    Top = 32
     Width = 57
     Height = 16
     Caption = 'Level 206'
@@ -2712,7 +2711,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label207: TLabel
     Left = 448
-    Top = -79
+    Top = 48
     Width = 57
     Height = 16
     Caption = 'Level 207'
@@ -2725,7 +2724,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label208: TLabel
     Left = 448
-    Top = -63
+    Top = 64
     Width = 57
     Height = 16
     Caption = 'Level 208'
@@ -2738,7 +2737,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label209: TLabel
     Left = 448
-    Top = -47
+    Top = 80
     Width = 57
     Height = 16
     Caption = 'Level 209'
@@ -2751,7 +2750,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label210: TLabel
     Left = 448
-    Top = -31
+    Top = 96
     Width = 57
     Height = 16
     Caption = 'Level 210'
@@ -2764,7 +2763,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label211: TLabel
     Left = 448
-    Top = -15
+    Top = 112
     Width = 57
     Height = 16
     Caption = 'Level 211'
@@ -2777,7 +2776,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label212: TLabel
     Left = 448
-    Top = 1
+    Top = 128
     Width = 57
     Height = 16
     Caption = 'Level 212'
@@ -2790,7 +2789,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label213: TLabel
     Left = 448
-    Top = 17
+    Top = 144
     Width = 57
     Height = 16
     Caption = 'Level 213'
@@ -2803,7 +2802,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label214: TLabel
     Left = 448
-    Top = 33
+    Top = 160
     Width = 57
     Height = 16
     Caption = 'Level 214'
@@ -2816,7 +2815,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label215: TLabel
     Left = 448
-    Top = 49
+    Top = 176
     Width = 57
     Height = 16
     Caption = 'Level 215'
@@ -2829,7 +2828,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label216: TLabel
     Left = 448
-    Top = 65
+    Top = 192
     Width = 57
     Height = 16
     Caption = 'Level 216'
@@ -2842,7 +2841,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label217: TLabel
     Left = 448
-    Top = 81
+    Top = 208
     Width = 57
     Height = 16
     Caption = 'Level 217'
@@ -2855,7 +2854,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label218: TLabel
     Left = 448
-    Top = 97
+    Top = 224
     Width = 57
     Height = 16
     Caption = 'Level 218'
@@ -2868,7 +2867,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label219: TLabel
     Left = 448
-    Top = 113
+    Top = 240
     Width = 57
     Height = 16
     Caption = 'Level 219'
@@ -2881,7 +2880,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label220: TLabel
     Left = 448
-    Top = 129
+    Top = 256
     Width = 57
     Height = 16
     Caption = 'Level 220'
@@ -2894,7 +2893,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label221: TLabel
     Left = 448
-    Top = 145
+    Top = 272
     Width = 57
     Height = 16
     Caption = 'Level 221'
@@ -2907,7 +2906,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label222: TLabel
     Left = 448
-    Top = 161
+    Top = 288
     Width = 57
     Height = 16
     Caption = 'Level 222'
@@ -2920,7 +2919,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label223: TLabel
     Left = 448
-    Top = 177
+    Top = 304
     Width = 57
     Height = 16
     Caption = 'Level 223'
@@ -2933,7 +2932,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label224: TLabel
     Left = 448
-    Top = 193
+    Top = 320
     Width = 57
     Height = 16
     Caption = 'Level 224'
@@ -2946,7 +2945,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label225: TLabel
     Left = 448
-    Top = 209
+    Top = 336
     Width = 57
     Height = 16
     Caption = 'Level 225'
@@ -2959,7 +2958,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label226: TLabel
     Left = 448
-    Top = 225
+    Top = 352
     Width = 57
     Height = 16
     Caption = 'Level 226'
@@ -2972,7 +2971,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label227: TLabel
     Left = 448
-    Top = 241
+    Top = 368
     Width = 57
     Height = 16
     Caption = 'Level 227'
@@ -2985,7 +2984,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label228: TLabel
     Left = 448
-    Top = 257
+    Top = 384
     Width = 57
     Height = 16
     Caption = 'Level 228'
@@ -2998,7 +2997,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label229: TLabel
     Left = 448
-    Top = 273
+    Top = 400
     Width = 57
     Height = 16
     Caption = 'Level 229'
@@ -3011,7 +3010,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label230: TLabel
     Left = 448
-    Top = 289
+    Top = 416
     Width = 57
     Height = 16
     Caption = 'Level 230'
@@ -3024,7 +3023,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label231: TLabel
     Left = 448
-    Top = 305
+    Top = 432
     Width = 57
     Height = 16
     Caption = 'Level 231'
@@ -3037,7 +3036,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label232: TLabel
     Left = 448
-    Top = 321
+    Top = 448
     Width = 57
     Height = 16
     Caption = 'Level 232'
@@ -3050,7 +3049,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label233: TLabel
     Left = 448
-    Top = 337
+    Top = 464
     Width = 57
     Height = 16
     Caption = 'Level 233'
@@ -3063,7 +3062,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label234: TLabel
     Left = 448
-    Top = 353
+    Top = 480
     Width = 57
     Height = 16
     Caption = 'Level 234'
@@ -3076,7 +3075,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label235: TLabel
     Left = 448
-    Top = 369
+    Top = 496
     Width = 57
     Height = 16
     Caption = 'Level 235'
@@ -3089,7 +3088,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label236: TLabel
     Left = 448
-    Top = 385
+    Top = 512
     Width = 57
     Height = 16
     Caption = 'Level 236'
@@ -3102,7 +3101,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label237: TLabel
     Left = 448
-    Top = 401
+    Top = 528
     Width = 57
     Height = 16
     Caption = 'Level 237'
@@ -3115,7 +3114,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label238: TLabel
     Left = 448
-    Top = 417
+    Top = 544
     Width = 57
     Height = 16
     Caption = 'Level 238'
@@ -3128,7 +3127,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label239: TLabel
     Left = 448
-    Top = 433
+    Top = 560
     Width = 57
     Height = 16
     Caption = 'Level 239'
@@ -3141,7 +3140,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label240: TLabel
     Left = 448
-    Top = 449
+    Top = 576
     Width = 57
     Height = 16
     Caption = 'Level 240'
@@ -3154,7 +3153,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label241: TLabel
     Left = 448
-    Top = 465
+    Top = 592
     Width = 57
     Height = 16
     Caption = 'Level 241'
@@ -3167,7 +3166,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label242: TLabel
     Left = 448
-    Top = 483
+    Top = 610
     Width = 57
     Height = 16
     Caption = 'Level 242'
@@ -3180,7 +3179,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label243: TLabel
     Left = 448
-    Top = 497
+    Top = 624
     Width = 57
     Height = 16
     Caption = 'Level 243'
@@ -3193,7 +3192,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label244: TLabel
     Left = 448
-    Top = 513
+    Top = 640
     Width = 57
     Height = 16
     Caption = 'Level 244'
@@ -3206,7 +3205,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label245: TLabel
     Left = 448
-    Top = 529
+    Top = 656
     Width = 57
     Height = 16
     Caption = 'Level 245'
@@ -3219,7 +3218,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label246: TLabel
     Left = 448
-    Top = 545
+    Top = 672
     Width = 57
     Height = 16
     Caption = 'Level 246'
@@ -3232,7 +3231,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label247: TLabel
     Left = 448
-    Top = 561
+    Top = 688
     Width = 57
     Height = 16
     Caption = 'Level 247'
@@ -3245,7 +3244,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label248: TLabel
     Left = 448
-    Top = 577
+    Top = 704
     Width = 57
     Height = 16
     Caption = 'Level 248'
@@ -3258,7 +3257,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label249: TLabel
     Left = 448
-    Top = 591
+    Top = 718
     Width = 57
     Height = 16
     Caption = 'Level 249'
@@ -3271,7 +3270,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label250: TLabel
     Left = 448
-    Top = 605
+    Top = 732
     Width = 57
     Height = 16
     Caption = 'Level 250'
@@ -3284,7 +3283,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label251: TLabel
     Left = 448
-    Top = 621
+    Top = 748
     Width = 57
     Height = 16
     Caption = 'Level 251'
@@ -3297,9 +3296,9 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label252: TLabel
     Left = 448
-    Top = 635
+    Top = 762
     Width = 57
-    Height = 22
+    Height = 16
     Caption = 'Level 252'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -3310,7 +3309,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label253: TLabel
     Left = 448
-    Top = 651
+    Top = 778
     Width = 57
     Height = 16
     Caption = 'Level 253'
@@ -3323,7 +3322,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label254: TLabel
     Left = 448
-    Top = 666
+    Top = 793
     Width = 57
     Height = 16
     Caption = 'Level 254'
@@ -3336,7 +3335,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object Label255: TLabel
     Left = 560
-    Top = -127
+    Top = 0
     Width = 57
     Height = 16
     Caption = 'Level 255'
@@ -3349,7 +3348,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox0: TCheckBox
     Left = 72
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -3363,7 +3362,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox1: TCheckBox
     Left = 72
-    Top = -111
+    Top = 16
     Width = 17
     Height = 17
     Enabled = False
@@ -3377,7 +3376,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox2: TCheckBox
     Left = 72
-    Top = -95
+    Top = 32
     Width = 17
     Height = 17
     Enabled = False
@@ -3391,7 +3390,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox3: TCheckBox
     Left = 72
-    Top = -79
+    Top = 48
     Width = 17
     Height = 17
     Enabled = False
@@ -3405,7 +3404,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox4: TCheckBox
     Left = 72
-    Top = -63
+    Top = 64
     Width = 17
     Height = 17
     Enabled = False
@@ -3419,7 +3418,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox5: TCheckBox
     Left = 72
-    Top = -47
+    Top = 80
     Width = 17
     Height = 17
     Enabled = False
@@ -3433,7 +3432,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox6: TCheckBox
     Left = 72
-    Top = -31
+    Top = 96
     Width = 17
     Height = 17
     Enabled = False
@@ -3447,7 +3446,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox7: TCheckBox
     Left = 72
-    Top = -15
+    Top = 112
     Width = 17
     Height = 17
     Enabled = False
@@ -3461,7 +3460,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox8: TCheckBox
     Left = 72
-    Top = 1
+    Top = 128
     Width = 17
     Height = 17
     Enabled = False
@@ -3475,7 +3474,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox9: TCheckBox
     Left = 72
-    Top = 17
+    Top = 144
     Width = 17
     Height = 17
     Enabled = False
@@ -3489,7 +3488,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox10: TCheckBox
     Left = 72
-    Top = 33
+    Top = 160
     Width = 17
     Height = 17
     Enabled = False
@@ -3503,7 +3502,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox11: TCheckBox
     Left = 72
-    Top = 49
+    Top = 176
     Width = 17
     Height = 17
     Enabled = False
@@ -3517,7 +3516,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox12: TCheckBox
     Left = 72
-    Top = 65
+    Top = 192
     Width = 17
     Height = 17
     Enabled = False
@@ -3531,7 +3530,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox13: TCheckBox
     Left = 72
-    Top = 81
+    Top = 208
     Width = 17
     Height = 17
     Enabled = False
@@ -3545,7 +3544,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox14: TCheckBox
     Left = 72
-    Top = 97
+    Top = 224
     Width = 17
     Height = 17
     Enabled = False
@@ -3559,7 +3558,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox15: TCheckBox
     Left = 72
-    Top = 113
+    Top = 240
     Width = 17
     Height = 17
     Enabled = False
@@ -3573,7 +3572,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox16: TCheckBox
     Left = 72
-    Top = 129
+    Top = 256
     Width = 17
     Height = 17
     Enabled = False
@@ -3587,7 +3586,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox17: TCheckBox
     Left = 72
-    Top = 145
+    Top = 272
     Width = 17
     Height = 17
     Enabled = False
@@ -3601,7 +3600,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox18: TCheckBox
     Left = 72
-    Top = 161
+    Top = 288
     Width = 17
     Height = 17
     Enabled = False
@@ -3615,7 +3614,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox19: TCheckBox
     Left = 72
-    Top = 177
+    Top = 304
     Width = 17
     Height = 17
     Enabled = False
@@ -3629,7 +3628,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox20: TCheckBox
     Left = 72
-    Top = 193
+    Top = 320
     Width = 17
     Height = 17
     Enabled = False
@@ -3643,7 +3642,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox21: TCheckBox
     Left = 72
-    Top = 209
+    Top = 336
     Width = 17
     Height = 17
     Enabled = False
@@ -3657,7 +3656,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox22: TCheckBox
     Left = 72
-    Top = 225
+    Top = 352
     Width = 17
     Height = 17
     Enabled = False
@@ -3671,7 +3670,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox23: TCheckBox
     Left = 72
-    Top = 241
+    Top = 368
     Width = 17
     Height = 17
     Enabled = False
@@ -3685,7 +3684,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox24: TCheckBox
     Left = 72
-    Top = 257
+    Top = 384
     Width = 17
     Height = 17
     Enabled = False
@@ -3699,7 +3698,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox25: TCheckBox
     Left = 72
-    Top = 273
+    Top = 400
     Width = 17
     Height = 17
     Enabled = False
@@ -3713,7 +3712,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox26: TCheckBox
     Left = 72
-    Top = 289
+    Top = 416
     Width = 17
     Height = 17
     Enabled = False
@@ -3727,7 +3726,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox27: TCheckBox
     Left = 72
-    Top = 305
+    Top = 432
     Width = 17
     Height = 17
     Enabled = False
@@ -3741,7 +3740,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox28: TCheckBox
     Left = 72
-    Top = 321
+    Top = 448
     Width = 17
     Height = 17
     Enabled = False
@@ -3755,7 +3754,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox29: TCheckBox
     Left = 72
-    Top = 337
+    Top = 464
     Width = 17
     Height = 17
     Enabled = False
@@ -3769,7 +3768,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox30: TCheckBox
     Left = 72
-    Top = 353
+    Top = 480
     Width = 17
     Height = 17
     Enabled = False
@@ -3783,7 +3782,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox31: TCheckBox
     Left = 72
-    Top = 369
+    Top = 496
     Width = 17
     Height = 17
     Enabled = False
@@ -3797,7 +3796,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox32: TCheckBox
     Left = 72
-    Top = 385
+    Top = 512
     Width = 17
     Height = 17
     Enabled = False
@@ -3811,7 +3810,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox33: TCheckBox
     Left = 72
-    Top = 401
+    Top = 528
     Width = 17
     Height = 17
     Enabled = False
@@ -3825,7 +3824,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox34: TCheckBox
     Left = 72
-    Top = 417
+    Top = 544
     Width = 17
     Height = 17
     Enabled = False
@@ -3839,7 +3838,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox35: TCheckBox
     Left = 72
-    Top = 433
+    Top = 560
     Width = 17
     Height = 17
     Enabled = False
@@ -3853,7 +3852,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox36: TCheckBox
     Left = 72
-    Top = 449
+    Top = 576
     Width = 17
     Height = 17
     Enabled = False
@@ -3867,7 +3866,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox37: TCheckBox
     Left = 72
-    Top = 465
+    Top = 592
     Width = 17
     Height = 17
     Enabled = False
@@ -3881,7 +3880,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox38: TCheckBox
     Left = 72
-    Top = 483
+    Top = 610
     Width = 17
     Height = 17
     Enabled = False
@@ -3895,7 +3894,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox39: TCheckBox
     Left = 72
-    Top = 497
+    Top = 624
     Width = 17
     Height = 17
     Enabled = False
@@ -3909,7 +3908,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox40: TCheckBox
     Left = 72
-    Top = 513
+    Top = 640
     Width = 17
     Height = 17
     Enabled = False
@@ -3923,7 +3922,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox41: TCheckBox
     Left = 72
-    Top = 529
+    Top = 656
     Width = 17
     Height = 17
     Enabled = False
@@ -3937,7 +3936,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox42: TCheckBox
     Left = 72
-    Top = 545
+    Top = 672
     Width = 17
     Height = 17
     Enabled = False
@@ -3951,7 +3950,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox43: TCheckBox
     Left = 72
-    Top = 561
+    Top = 688
     Width = 17
     Height = 17
     Enabled = False
@@ -3965,7 +3964,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox44: TCheckBox
     Left = 72
-    Top = 577
+    Top = 704
     Width = 17
     Height = 17
     Enabled = False
@@ -3979,7 +3978,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox45: TCheckBox
     Left = 72
-    Top = 591
+    Top = 718
     Width = 17
     Height = 17
     Enabled = False
@@ -3993,7 +3992,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox46: TCheckBox
     Left = 72
-    Top = 605
+    Top = 732
     Width = 17
     Height = 17
     Enabled = False
@@ -4007,7 +4006,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox47: TCheckBox
     Left = 72
-    Top = 621
+    Top = 748
     Width = 17
     Height = 17
     Enabled = False
@@ -4021,7 +4020,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox48: TCheckBox
     Left = 72
-    Top = 635
+    Top = 762
     Width = 17
     Height = 17
     Enabled = False
@@ -4035,7 +4034,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox49: TCheckBox
     Left = 72
-    Top = 651
+    Top = 778
     Width = 17
     Height = 17
     Enabled = False
@@ -4049,7 +4048,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox50: TCheckBox
     Left = 72
-    Top = 665
+    Top = 792
     Width = 17
     Height = 17
     Enabled = False
@@ -4063,7 +4062,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox51: TCheckBox
     Left = 184
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -4077,7 +4076,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox52: TCheckBox
     Left = 184
-    Top = -111
+    Top = 16
     Width = 17
     Height = 17
     Enabled = False
@@ -4091,7 +4090,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox53: TCheckBox
     Left = 184
-    Top = -95
+    Top = 32
     Width = 17
     Height = 17
     Enabled = False
@@ -4105,7 +4104,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox54: TCheckBox
     Left = 184
-    Top = -79
+    Top = 48
     Width = 17
     Height = 17
     Enabled = False
@@ -4119,7 +4118,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox55: TCheckBox
     Left = 184
-    Top = -63
+    Top = 64
     Width = 17
     Height = 17
     Enabled = False
@@ -4133,7 +4132,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox56: TCheckBox
     Left = 184
-    Top = -47
+    Top = 80
     Width = 17
     Height = 17
     Enabled = False
@@ -4147,7 +4146,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox57: TCheckBox
     Left = 184
-    Top = -31
+    Top = 96
     Width = 17
     Height = 17
     Enabled = False
@@ -4161,7 +4160,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox58: TCheckBox
     Left = 184
-    Top = -15
+    Top = 112
     Width = 17
     Height = 17
     Enabled = False
@@ -4175,7 +4174,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox59: TCheckBox
     Left = 184
-    Top = 1
+    Top = 128
     Width = 17
     Height = 17
     Enabled = False
@@ -4189,7 +4188,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox60: TCheckBox
     Left = 184
-    Top = 17
+    Top = 144
     Width = 17
     Height = 17
     Enabled = False
@@ -4203,7 +4202,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox61: TCheckBox
     Left = 184
-    Top = 33
+    Top = 160
     Width = 17
     Height = 17
     Enabled = False
@@ -4217,7 +4216,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox62: TCheckBox
     Left = 184
-    Top = 49
+    Top = 176
     Width = 17
     Height = 17
     Enabled = False
@@ -4231,7 +4230,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox63: TCheckBox
     Left = 184
-    Top = 65
+    Top = 192
     Width = 17
     Height = 17
     Enabled = False
@@ -4245,7 +4244,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox64: TCheckBox
     Left = 184
-    Top = 81
+    Top = 208
     Width = 17
     Height = 17
     Enabled = False
@@ -4259,7 +4258,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox65: TCheckBox
     Left = 184
-    Top = 97
+    Top = 224
     Width = 17
     Height = 17
     Enabled = False
@@ -4273,7 +4272,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox66: TCheckBox
     Left = 184
-    Top = 113
+    Top = 240
     Width = 17
     Height = 17
     Enabled = False
@@ -4287,7 +4286,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox67: TCheckBox
     Left = 184
-    Top = 129
+    Top = 256
     Width = 17
     Height = 17
     Enabled = False
@@ -4301,7 +4300,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox68: TCheckBox
     Left = 184
-    Top = 145
+    Top = 272
     Width = 17
     Height = 17
     Enabled = False
@@ -4315,7 +4314,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox69: TCheckBox
     Left = 184
-    Top = 161
+    Top = 288
     Width = 17
     Height = 17
     Enabled = False
@@ -4329,7 +4328,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox70: TCheckBox
     Left = 184
-    Top = 177
+    Top = 304
     Width = 17
     Height = 17
     Enabled = False
@@ -4343,7 +4342,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox71: TCheckBox
     Left = 184
-    Top = 193
+    Top = 320
     Width = 17
     Height = 17
     Enabled = False
@@ -4357,7 +4356,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox72: TCheckBox
     Left = 184
-    Top = 209
+    Top = 336
     Width = 17
     Height = 17
     Enabled = False
@@ -4371,7 +4370,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox73: TCheckBox
     Left = 184
-    Top = 225
+    Top = 352
     Width = 17
     Height = 17
     Enabled = False
@@ -4385,7 +4384,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox74: TCheckBox
     Left = 184
-    Top = 241
+    Top = 368
     Width = 17
     Height = 17
     Enabled = False
@@ -4399,7 +4398,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox75: TCheckBox
     Left = 184
-    Top = 257
+    Top = 384
     Width = 17
     Height = 17
     Enabled = False
@@ -4413,7 +4412,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox76: TCheckBox
     Left = 184
-    Top = 273
+    Top = 400
     Width = 17
     Height = 17
     Enabled = False
@@ -4427,7 +4426,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox77: TCheckBox
     Left = 184
-    Top = 289
+    Top = 416
     Width = 17
     Height = 17
     Enabled = False
@@ -4441,7 +4440,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox78: TCheckBox
     Left = 184
-    Top = 305
+    Top = 432
     Width = 17
     Height = 17
     Enabled = False
@@ -4455,7 +4454,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox79: TCheckBox
     Left = 184
-    Top = 321
+    Top = 448
     Width = 17
     Height = 17
     Enabled = False
@@ -4469,7 +4468,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox80: TCheckBox
     Left = 184
-    Top = 337
+    Top = 464
     Width = 17
     Height = 17
     Enabled = False
@@ -4483,7 +4482,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox81: TCheckBox
     Left = 184
-    Top = 353
+    Top = 480
     Width = 17
     Height = 17
     Enabled = False
@@ -4497,7 +4496,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox82: TCheckBox
     Left = 184
-    Top = 369
+    Top = 496
     Width = 17
     Height = 17
     Enabled = False
@@ -4511,7 +4510,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox83: TCheckBox
     Left = 184
-    Top = 385
+    Top = 512
     Width = 17
     Height = 17
     Enabled = False
@@ -4525,7 +4524,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox84: TCheckBox
     Left = 184
-    Top = 401
+    Top = 528
     Width = 17
     Height = 17
     Enabled = False
@@ -4539,7 +4538,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox85: TCheckBox
     Left = 184
-    Top = 417
+    Top = 544
     Width = 17
     Height = 17
     Enabled = False
@@ -4553,7 +4552,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox86: TCheckBox
     Left = 184
-    Top = 433
+    Top = 560
     Width = 17
     Height = 17
     Enabled = False
@@ -4567,7 +4566,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox87: TCheckBox
     Left = 184
-    Top = 449
+    Top = 576
     Width = 17
     Height = 17
     Enabled = False
@@ -4581,7 +4580,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox88: TCheckBox
     Left = 184
-    Top = 465
+    Top = 592
     Width = 17
     Height = 17
     Enabled = False
@@ -4595,7 +4594,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox89: TCheckBox
     Left = 184
-    Top = 483
+    Top = 610
     Width = 17
     Height = 17
     Enabled = False
@@ -4609,7 +4608,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox90: TCheckBox
     Left = 184
-    Top = 497
+    Top = 624
     Width = 17
     Height = 17
     Enabled = False
@@ -4623,7 +4622,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox91: TCheckBox
     Left = 184
-    Top = 513
+    Top = 640
     Width = 17
     Height = 17
     Enabled = False
@@ -4637,7 +4636,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox92: TCheckBox
     Left = 184
-    Top = 529
+    Top = 656
     Width = 17
     Height = 17
     Enabled = False
@@ -4651,7 +4650,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox93: TCheckBox
     Left = 184
-    Top = 545
+    Top = 672
     Width = 17
     Height = 17
     Enabled = False
@@ -4665,7 +4664,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox94: TCheckBox
     Left = 184
-    Top = 561
+    Top = 688
     Width = 17
     Height = 17
     Enabled = False
@@ -4679,7 +4678,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox95: TCheckBox
     Left = 184
-    Top = 577
+    Top = 704
     Width = 17
     Height = 17
     Enabled = False
@@ -4693,7 +4692,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox96: TCheckBox
     Left = 184
-    Top = 591
+    Top = 718
     Width = 17
     Height = 17
     Enabled = False
@@ -4707,7 +4706,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox97: TCheckBox
     Left = 184
-    Top = 605
+    Top = 732
     Width = 17
     Height = 17
     Enabled = False
@@ -4721,7 +4720,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox98: TCheckBox
     Left = 184
-    Top = 621
+    Top = 748
     Width = 17
     Height = 17
     Enabled = False
@@ -4735,7 +4734,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox99: TCheckBox
     Left = 184
-    Top = 635
+    Top = 762
     Width = 17
     Height = 17
     Enabled = False
@@ -4749,7 +4748,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox100: TCheckBox
     Left = 184
-    Top = 651
+    Top = 778
     Width = 17
     Height = 17
     Enabled = False
@@ -4763,7 +4762,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox101: TCheckBox
     Left = 184
-    Top = 665
+    Top = 792
     Width = 17
     Height = 17
     Enabled = False
@@ -4777,7 +4776,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox102: TCheckBox
     Left = 296
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -4791,7 +4790,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox103: TCheckBox
     Left = 296
-    Top = -111
+    Top = 16
     Width = 17
     Height = 17
     Enabled = False
@@ -4805,7 +4804,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox104: TCheckBox
     Left = 296
-    Top = -95
+    Top = 32
     Width = 17
     Height = 17
     Enabled = False
@@ -4819,7 +4818,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox105: TCheckBox
     Left = 296
-    Top = -79
+    Top = 48
     Width = 17
     Height = 17
     Enabled = False
@@ -4833,7 +4832,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox106: TCheckBox
     Left = 296
-    Top = -63
+    Top = 64
     Width = 17
     Height = 17
     Enabled = False
@@ -4847,7 +4846,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox107: TCheckBox
     Left = 296
-    Top = -47
+    Top = 80
     Width = 17
     Height = 17
     Enabled = False
@@ -4861,7 +4860,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox108: TCheckBox
     Left = 296
-    Top = -31
+    Top = 96
     Width = 17
     Height = 17
     Enabled = False
@@ -4875,7 +4874,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox109: TCheckBox
     Left = 296
-    Top = -15
+    Top = 112
     Width = 17
     Height = 17
     Enabled = False
@@ -4889,7 +4888,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox110: TCheckBox
     Left = 296
-    Top = 1
+    Top = 128
     Width = 17
     Height = 17
     Enabled = False
@@ -4903,7 +4902,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox111: TCheckBox
     Left = 296
-    Top = 17
+    Top = 144
     Width = 17
     Height = 17
     Enabled = False
@@ -4917,7 +4916,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox112: TCheckBox
     Left = 296
-    Top = 33
+    Top = 160
     Width = 17
     Height = 17
     Enabled = False
@@ -4931,7 +4930,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox113: TCheckBox
     Left = 296
-    Top = 49
+    Top = 176
     Width = 17
     Height = 17
     Enabled = False
@@ -4945,7 +4944,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox114: TCheckBox
     Left = 296
-    Top = 65
+    Top = 192
     Width = 17
     Height = 17
     Enabled = False
@@ -4959,7 +4958,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox115: TCheckBox
     Left = 296
-    Top = 81
+    Top = 208
     Width = 17
     Height = 17
     Enabled = False
@@ -4973,7 +4972,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox116: TCheckBox
     Left = 296
-    Top = 97
+    Top = 224
     Width = 17
     Height = 17
     Enabled = False
@@ -4987,7 +4986,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox117: TCheckBox
     Left = 296
-    Top = 113
+    Top = 240
     Width = 17
     Height = 17
     Enabled = False
@@ -5001,7 +5000,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox118: TCheckBox
     Left = 296
-    Top = 129
+    Top = 256
     Width = 17
     Height = 17
     Enabled = False
@@ -5015,7 +5014,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox119: TCheckBox
     Left = 296
-    Top = 145
+    Top = 272
     Width = 17
     Height = 17
     Enabled = False
@@ -5029,7 +5028,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox120: TCheckBox
     Left = 296
-    Top = 161
+    Top = 288
     Width = 17
     Height = 17
     Enabled = False
@@ -5043,7 +5042,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox121: TCheckBox
     Left = 296
-    Top = 177
+    Top = 304
     Width = 17
     Height = 17
     Enabled = False
@@ -5057,7 +5056,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox122: TCheckBox
     Left = 296
-    Top = 193
+    Top = 320
     Width = 17
     Height = 17
     Enabled = False
@@ -5071,7 +5070,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox123: TCheckBox
     Left = 296
-    Top = 209
+    Top = 336
     Width = 17
     Height = 17
     Enabled = False
@@ -5085,7 +5084,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox124: TCheckBox
     Left = 296
-    Top = 225
+    Top = 352
     Width = 17
     Height = 17
     Enabled = False
@@ -5099,7 +5098,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox125: TCheckBox
     Left = 296
-    Top = 241
+    Top = 368
     Width = 17
     Height = 17
     Enabled = False
@@ -5113,7 +5112,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox126: TCheckBox
     Left = 296
-    Top = 257
+    Top = 384
     Width = 17
     Height = 17
     Enabled = False
@@ -5127,7 +5126,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox127: TCheckBox
     Left = 296
-    Top = 273
+    Top = 400
     Width = 17
     Height = 17
     Enabled = False
@@ -5141,7 +5140,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox128: TCheckBox
     Left = 296
-    Top = 289
+    Top = 416
     Width = 17
     Height = 17
     Enabled = False
@@ -5155,7 +5154,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox129: TCheckBox
     Left = 296
-    Top = 305
+    Top = 432
     Width = 17
     Height = 17
     Enabled = False
@@ -5169,7 +5168,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox130: TCheckBox
     Left = 296
-    Top = 321
+    Top = 448
     Width = 17
     Height = 17
     Enabled = False
@@ -5183,7 +5182,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox131: TCheckBox
     Left = 296
-    Top = 337
+    Top = 464
     Width = 17
     Height = 17
     Enabled = False
@@ -5197,7 +5196,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox132: TCheckBox
     Left = 296
-    Top = 353
+    Top = 480
     Width = 17
     Height = 17
     Enabled = False
@@ -5211,7 +5210,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox133: TCheckBox
     Left = 296
-    Top = 369
+    Top = 496
     Width = 17
     Height = 17
     Enabled = False
@@ -5225,7 +5224,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox134: TCheckBox
     Left = 296
-    Top = 385
+    Top = 512
     Width = 17
     Height = 17
     Enabled = False
@@ -5239,7 +5238,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox135: TCheckBox
     Left = 296
-    Top = 401
+    Top = 528
     Width = 17
     Height = 17
     Enabled = False
@@ -5253,7 +5252,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox136: TCheckBox
     Left = 296
-    Top = 417
+    Top = 544
     Width = 17
     Height = 17
     Enabled = False
@@ -5267,7 +5266,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox137: TCheckBox
     Left = 296
-    Top = 433
+    Top = 560
     Width = 17
     Height = 17
     Enabled = False
@@ -5281,7 +5280,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox138: TCheckBox
     Left = 296
-    Top = 449
+    Top = 576
     Width = 17
     Height = 17
     Enabled = False
@@ -5295,7 +5294,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox139: TCheckBox
     Left = 296
-    Top = 465
+    Top = 592
     Width = 17
     Height = 17
     Enabled = False
@@ -5309,7 +5308,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox140: TCheckBox
     Left = 296
-    Top = 483
+    Top = 610
     Width = 17
     Height = 17
     Enabled = False
@@ -5323,7 +5322,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox141: TCheckBox
     Left = 296
-    Top = 497
+    Top = 624
     Width = 17
     Height = 17
     Enabled = False
@@ -5337,7 +5336,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox142: TCheckBox
     Left = 296
-    Top = 513
+    Top = 640
     Width = 17
     Height = 17
     Enabled = False
@@ -5351,7 +5350,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox143: TCheckBox
     Left = 296
-    Top = 529
+    Top = 656
     Width = 17
     Height = 17
     Enabled = False
@@ -5365,7 +5364,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox144: TCheckBox
     Left = 296
-    Top = 545
+    Top = 672
     Width = 17
     Height = 17
     Enabled = False
@@ -5379,7 +5378,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox145: TCheckBox
     Left = 296
-    Top = 561
+    Top = 688
     Width = 17
     Height = 17
     Enabled = False
@@ -5393,7 +5392,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox146: TCheckBox
     Left = 296
-    Top = 577
+    Top = 704
     Width = 17
     Height = 17
     Enabled = False
@@ -5407,7 +5406,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox147: TCheckBox
     Left = 296
-    Top = 591
+    Top = 718
     Width = 17
     Height = 17
     Enabled = False
@@ -5421,7 +5420,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox148: TCheckBox
     Left = 296
-    Top = 605
+    Top = 732
     Width = 17
     Height = 17
     Enabled = False
@@ -5435,7 +5434,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox149: TCheckBox
     Left = 296
-    Top = 621
+    Top = 748
     Width = 17
     Height = 17
     Enabled = False
@@ -5449,7 +5448,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox150: TCheckBox
     Left = 296
-    Top = 635
+    Top = 762
     Width = 17
     Height = 17
     Enabled = False
@@ -5463,7 +5462,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox151: TCheckBox
     Left = 296
-    Top = 651
+    Top = 778
     Width = 17
     Height = 17
     Enabled = False
@@ -5477,7 +5476,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox152: TCheckBox
     Left = 296
-    Top = 665
+    Top = 792
     Width = 17
     Height = 17
     Enabled = False
@@ -5491,7 +5490,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox153: TCheckBox
     Left = 408
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -5505,7 +5504,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox154: TCheckBox
     Left = 408
-    Top = -111
+    Top = 16
     Width = 17
     Height = 17
     Enabled = False
@@ -5519,7 +5518,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox155: TCheckBox
     Left = 408
-    Top = -95
+    Top = 32
     Width = 17
     Height = 17
     Enabled = False
@@ -5533,7 +5532,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox156: TCheckBox
     Left = 408
-    Top = -79
+    Top = 48
     Width = 17
     Height = 17
     Enabled = False
@@ -5547,7 +5546,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox157: TCheckBox
     Left = 408
-    Top = -63
+    Top = 64
     Width = 17
     Height = 17
     Enabled = False
@@ -5561,7 +5560,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox158: TCheckBox
     Left = 408
-    Top = -47
+    Top = 80
     Width = 17
     Height = 17
     Enabled = False
@@ -5575,7 +5574,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox159: TCheckBox
     Left = 408
-    Top = -31
+    Top = 96
     Width = 17
     Height = 17
     Enabled = False
@@ -5589,7 +5588,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox160: TCheckBox
     Left = 408
-    Top = -15
+    Top = 112
     Width = 17
     Height = 17
     Enabled = False
@@ -5603,7 +5602,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox161: TCheckBox
     Left = 408
-    Top = 1
+    Top = 128
     Width = 17
     Height = 17
     Enabled = False
@@ -5617,7 +5616,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox162: TCheckBox
     Left = 408
-    Top = 17
+    Top = 144
     Width = 17
     Height = 17
     Enabled = False
@@ -5631,7 +5630,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox163: TCheckBox
     Left = 408
-    Top = 33
+    Top = 160
     Width = 17
     Height = 17
     Enabled = False
@@ -5645,7 +5644,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox164: TCheckBox
     Left = 408
-    Top = 49
+    Top = 176
     Width = 17
     Height = 17
     Enabled = False
@@ -5659,7 +5658,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox165: TCheckBox
     Left = 408
-    Top = 65
+    Top = 192
     Width = 17
     Height = 17
     Enabled = False
@@ -5673,7 +5672,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox166: TCheckBox
     Left = 408
-    Top = 81
+    Top = 208
     Width = 17
     Height = 17
     Enabled = False
@@ -5687,7 +5686,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox167: TCheckBox
     Left = 408
-    Top = 97
+    Top = 224
     Width = 17
     Height = 17
     Enabled = False
@@ -5701,7 +5700,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox168: TCheckBox
     Left = 408
-    Top = 113
+    Top = 240
     Width = 17
     Height = 17
     Enabled = False
@@ -5715,7 +5714,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox169: TCheckBox
     Left = 408
-    Top = 129
+    Top = 256
     Width = 17
     Height = 17
     Enabled = False
@@ -5729,7 +5728,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox170: TCheckBox
     Left = 408
-    Top = 145
+    Top = 272
     Width = 17
     Height = 17
     Enabled = False
@@ -5743,7 +5742,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox171: TCheckBox
     Left = 408
-    Top = 161
+    Top = 288
     Width = 17
     Height = 17
     Enabled = False
@@ -5757,7 +5756,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox172: TCheckBox
     Left = 408
-    Top = 177
+    Top = 304
     Width = 17
     Height = 17
     Enabled = False
@@ -5771,7 +5770,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox173: TCheckBox
     Left = 408
-    Top = 193
+    Top = 320
     Width = 17
     Height = 17
     Enabled = False
@@ -5785,7 +5784,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox174: TCheckBox
     Left = 408
-    Top = 209
+    Top = 336
     Width = 17
     Height = 17
     Enabled = False
@@ -5799,7 +5798,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox175: TCheckBox
     Left = 408
-    Top = 225
+    Top = 352
     Width = 17
     Height = 17
     Enabled = False
@@ -5813,7 +5812,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox176: TCheckBox
     Left = 408
-    Top = 241
+    Top = 368
     Width = 17
     Height = 17
     Enabled = False
@@ -5827,7 +5826,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox177: TCheckBox
     Left = 408
-    Top = 257
+    Top = 384
     Width = 17
     Height = 17
     Enabled = False
@@ -5841,7 +5840,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox178: TCheckBox
     Left = 408
-    Top = 273
+    Top = 400
     Width = 17
     Height = 17
     Enabled = False
@@ -5855,7 +5854,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox179: TCheckBox
     Left = 408
-    Top = 289
+    Top = 416
     Width = 17
     Height = 17
     Enabled = False
@@ -5869,7 +5868,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox180: TCheckBox
     Left = 408
-    Top = 305
+    Top = 432
     Width = 17
     Height = 17
     Enabled = False
@@ -5883,7 +5882,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox181: TCheckBox
     Left = 408
-    Top = 321
+    Top = 448
     Width = 17
     Height = 17
     Enabled = False
@@ -5897,7 +5896,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox182: TCheckBox
     Left = 408
-    Top = 337
+    Top = 464
     Width = 17
     Height = 17
     Enabled = False
@@ -5911,7 +5910,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox183: TCheckBox
     Left = 408
-    Top = 353
+    Top = 480
     Width = 17
     Height = 17
     Enabled = False
@@ -5925,7 +5924,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox184: TCheckBox
     Left = 408
-    Top = 369
+    Top = 496
     Width = 17
     Height = 17
     Enabled = False
@@ -5939,7 +5938,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox185: TCheckBox
     Left = 408
-    Top = 385
+    Top = 512
     Width = 17
     Height = 17
     Enabled = False
@@ -5953,7 +5952,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox186: TCheckBox
     Left = 408
-    Top = 401
+    Top = 528
     Width = 17
     Height = 17
     Enabled = False
@@ -5967,7 +5966,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox187: TCheckBox
     Left = 408
-    Top = 417
+    Top = 544
     Width = 17
     Height = 17
     Enabled = False
@@ -5981,7 +5980,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox188: TCheckBox
     Left = 408
-    Top = 433
+    Top = 560
     Width = 17
     Height = 17
     Enabled = False
@@ -5995,7 +5994,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox189: TCheckBox
     Left = 408
-    Top = 449
+    Top = 576
     Width = 17
     Height = 17
     Enabled = False
@@ -6009,7 +6008,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox190: TCheckBox
     Left = 408
-    Top = 465
+    Top = 592
     Width = 17
     Height = 17
     Enabled = False
@@ -6023,7 +6022,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox191: TCheckBox
     Left = 408
-    Top = 483
+    Top = 610
     Width = 17
     Height = 17
     Enabled = False
@@ -6037,7 +6036,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox192: TCheckBox
     Left = 408
-    Top = 497
+    Top = 624
     Width = 17
     Height = 17
     Enabled = False
@@ -6051,7 +6050,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox193: TCheckBox
     Left = 408
-    Top = 513
+    Top = 640
     Width = 17
     Height = 17
     Enabled = False
@@ -6065,7 +6064,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox194: TCheckBox
     Left = 408
-    Top = 529
+    Top = 656
     Width = 17
     Height = 17
     Enabled = False
@@ -6079,7 +6078,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox195: TCheckBox
     Left = 408
-    Top = 545
+    Top = 672
     Width = 17
     Height = 17
     Enabled = False
@@ -6093,7 +6092,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox196: TCheckBox
     Left = 408
-    Top = 561
+    Top = 688
     Width = 17
     Height = 17
     Enabled = False
@@ -6107,7 +6106,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox197: TCheckBox
     Left = 408
-    Top = 577
+    Top = 704
     Width = 17
     Height = 17
     Enabled = False
@@ -6121,7 +6120,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox198: TCheckBox
     Left = 408
-    Top = 591
+    Top = 718
     Width = 17
     Height = 17
     Enabled = False
@@ -6135,7 +6134,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox199: TCheckBox
     Left = 408
-    Top = 605
+    Top = 732
     Width = 17
     Height = 17
     Enabled = False
@@ -6149,7 +6148,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox200: TCheckBox
     Left = 408
-    Top = 621
+    Top = 748
     Width = 17
     Height = 17
     Enabled = False
@@ -6163,7 +6162,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox201: TCheckBox
     Left = 408
-    Top = 635
+    Top = 762
     Width = 17
     Height = 17
     Enabled = False
@@ -6177,7 +6176,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox202: TCheckBox
     Left = 408
-    Top = 651
+    Top = 778
     Width = 17
     Height = 17
     Enabled = False
@@ -6191,7 +6190,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox203: TCheckBox
     Left = 408
-    Top = 665
+    Top = 792
     Width = 17
     Height = 17
     Enabled = False
@@ -6205,7 +6204,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox204: TCheckBox
     Left = 520
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -6219,7 +6218,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox205: TCheckBox
     Left = 520
-    Top = -111
+    Top = 16
     Width = 17
     Height = 17
     Enabled = False
@@ -6233,7 +6232,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox206: TCheckBox
     Left = 520
-    Top = -95
+    Top = 32
     Width = 17
     Height = 17
     Enabled = False
@@ -6247,7 +6246,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox207: TCheckBox
     Left = 520
-    Top = -79
+    Top = 48
     Width = 17
     Height = 17
     Enabled = False
@@ -6261,7 +6260,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox208: TCheckBox
     Left = 520
-    Top = -63
+    Top = 64
     Width = 17
     Height = 17
     Enabled = False
@@ -6275,7 +6274,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox209: TCheckBox
     Left = 520
-    Top = -47
+    Top = 80
     Width = 17
     Height = 17
     Enabled = False
@@ -6289,7 +6288,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox210: TCheckBox
     Left = 520
-    Top = -31
+    Top = 96
     Width = 17
     Height = 17
     Enabled = False
@@ -6303,7 +6302,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox211: TCheckBox
     Left = 520
-    Top = -15
+    Top = 112
     Width = 17
     Height = 17
     Enabled = False
@@ -6317,7 +6316,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox212: TCheckBox
     Left = 520
-    Top = 1
+    Top = 128
     Width = 17
     Height = 17
     Enabled = False
@@ -6331,7 +6330,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox213: TCheckBox
     Left = 520
-    Top = 17
+    Top = 144
     Width = 17
     Height = 17
     Enabled = False
@@ -6345,7 +6344,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox214: TCheckBox
     Left = 520
-    Top = 33
+    Top = 160
     Width = 17
     Height = 17
     Enabled = False
@@ -6359,7 +6358,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox215: TCheckBox
     Left = 520
-    Top = 49
+    Top = 176
     Width = 17
     Height = 17
     Enabled = False
@@ -6373,7 +6372,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox216: TCheckBox
     Left = 520
-    Top = 65
+    Top = 192
     Width = 17
     Height = 17
     Enabled = False
@@ -6387,7 +6386,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox217: TCheckBox
     Left = 520
-    Top = 81
+    Top = 208
     Width = 17
     Height = 17
     Enabled = False
@@ -6401,7 +6400,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox218: TCheckBox
     Left = 520
-    Top = 97
+    Top = 224
     Width = 17
     Height = 17
     Enabled = False
@@ -6415,7 +6414,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox219: TCheckBox
     Left = 520
-    Top = 113
+    Top = 240
     Width = 17
     Height = 17
     Enabled = False
@@ -6429,7 +6428,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox220: TCheckBox
     Left = 520
-    Top = 129
+    Top = 256
     Width = 17
     Height = 17
     Enabled = False
@@ -6443,7 +6442,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox221: TCheckBox
     Left = 520
-    Top = 145
+    Top = 272
     Width = 17
     Height = 17
     Enabled = False
@@ -6457,7 +6456,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox222: TCheckBox
     Left = 520
-    Top = 161
+    Top = 288
     Width = 17
     Height = 17
     Enabled = False
@@ -6471,7 +6470,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox223: TCheckBox
     Left = 520
-    Top = 177
+    Top = 304
     Width = 17
     Height = 17
     Enabled = False
@@ -6485,7 +6484,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox224: TCheckBox
     Left = 520
-    Top = 193
+    Top = 320
     Width = 17
     Height = 17
     Enabled = False
@@ -6499,7 +6498,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox225: TCheckBox
     Left = 520
-    Top = 209
+    Top = 336
     Width = 17
     Height = 17
     Enabled = False
@@ -6513,7 +6512,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox226: TCheckBox
     Left = 520
-    Top = 225
+    Top = 352
     Width = 17
     Height = 17
     Enabled = False
@@ -6527,7 +6526,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox227: TCheckBox
     Left = 520
-    Top = 241
+    Top = 368
     Width = 17
     Height = 17
     Enabled = False
@@ -6541,7 +6540,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox228: TCheckBox
     Left = 520
-    Top = 257
+    Top = 384
     Width = 17
     Height = 17
     Enabled = False
@@ -6555,7 +6554,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox229: TCheckBox
     Left = 520
-    Top = 273
+    Top = 400
     Width = 17
     Height = 17
     Enabled = False
@@ -6569,7 +6568,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox230: TCheckBox
     Left = 520
-    Top = 289
+    Top = 416
     Width = 17
     Height = 17
     Enabled = False
@@ -6583,7 +6582,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox231: TCheckBox
     Left = 520
-    Top = 305
+    Top = 432
     Width = 17
     Height = 17
     Enabled = False
@@ -6597,7 +6596,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox232: TCheckBox
     Left = 520
-    Top = 321
+    Top = 448
     Width = 17
     Height = 17
     Enabled = False
@@ -6611,7 +6610,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox233: TCheckBox
     Left = 520
-    Top = 337
+    Top = 464
     Width = 17
     Height = 17
     Enabled = False
@@ -6625,7 +6624,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox234: TCheckBox
     Left = 520
-    Top = 353
+    Top = 480
     Width = 17
     Height = 17
     Enabled = False
@@ -6639,7 +6638,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox235: TCheckBox
     Left = 520
-    Top = 369
+    Top = 496
     Width = 17
     Height = 17
     Enabled = False
@@ -6653,7 +6652,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox236: TCheckBox
     Left = 520
-    Top = 385
+    Top = 512
     Width = 17
     Height = 17
     Enabled = False
@@ -6667,7 +6666,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox237: TCheckBox
     Left = 520
-    Top = 401
+    Top = 528
     Width = 17
     Height = 17
     Enabled = False
@@ -6681,7 +6680,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox238: TCheckBox
     Left = 520
-    Top = 417
+    Top = 544
     Width = 17
     Height = 17
     Enabled = False
@@ -6695,7 +6694,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox239: TCheckBox
     Left = 520
-    Top = 433
+    Top = 560
     Width = 17
     Height = 17
     Enabled = False
@@ -6709,7 +6708,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox240: TCheckBox
     Left = 520
-    Top = 449
+    Top = 576
     Width = 17
     Height = 17
     Enabled = False
@@ -6723,7 +6722,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox241: TCheckBox
     Left = 520
-    Top = 465
+    Top = 592
     Width = 17
     Height = 17
     Enabled = False
@@ -6737,7 +6736,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox242: TCheckBox
     Left = 520
-    Top = 483
+    Top = 610
     Width = 17
     Height = 17
     Enabled = False
@@ -6751,7 +6750,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox243: TCheckBox
     Left = 520
-    Top = 497
+    Top = 624
     Width = 17
     Height = 17
     Enabled = False
@@ -6765,7 +6764,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox244: TCheckBox
     Left = 520
-    Top = 513
+    Top = 640
     Width = 17
     Height = 17
     Enabled = False
@@ -6779,7 +6778,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox245: TCheckBox
     Left = 520
-    Top = 529
+    Top = 656
     Width = 17
     Height = 17
     Enabled = False
@@ -6793,7 +6792,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox246: TCheckBox
     Left = 520
-    Top = 545
+    Top = 672
     Width = 17
     Height = 17
     Enabled = False
@@ -6807,7 +6806,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox247: TCheckBox
     Left = 520
-    Top = 561
+    Top = 688
     Width = 17
     Height = 17
     Enabled = False
@@ -6821,7 +6820,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox248: TCheckBox
     Left = 520
-    Top = 577
+    Top = 704
     Width = 17
     Height = 17
     Enabled = False
@@ -6835,7 +6834,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox249: TCheckBox
     Left = 520
-    Top = 591
+    Top = 718
     Width = 17
     Height = 17
     Enabled = False
@@ -6849,7 +6848,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox250: TCheckBox
     Left = 520
-    Top = 605
+    Top = 732
     Width = 17
     Height = 17
     Enabled = False
@@ -6863,7 +6862,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox251: TCheckBox
     Left = 520
-    Top = 621
+    Top = 748
     Width = 17
     Height = 17
     Enabled = False
@@ -6877,7 +6876,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox252: TCheckBox
     Left = 520
-    Top = 635
+    Top = 762
     Width = 17
     Height = 17
     Enabled = False
@@ -6891,7 +6890,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox253: TCheckBox
     Left = 520
-    Top = 651
+    Top = 778
     Width = 17
     Height = 17
     Enabled = False
@@ -6905,7 +6904,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox254: TCheckBox
     Left = 520
-    Top = 665
+    Top = 792
     Width = 17
     Height = 17
     Enabled = False
@@ -6919,7 +6918,7 @@ object GrayLevelsTable: TGrayLevelsTable
   end
   object CheckBox255: TCheckBox
     Left = 632
-    Top = -127
+    Top = 0
     Width = 17
     Height = 17
     Enabled = False
@@ -6930,5 +6929,74 @@ object GrayLevelsTable: TGrayLevelsTable
     Font.Style = []
     ParentFont = False
     TabOrder = 255
+  end
+  object GroupBox1: TGroupBox
+    Left = 552
+    Top = 32
+    Width = 97
+    Height = 121
+    TabOrder = 256
+    object Red: TRadioButton
+      Left = 16
+      Top = 16
+      Width = 65
+      Height = 17
+      Caption = 'Red'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clRed
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnClick = RedClick
+    end
+    object Green: TRadioButton
+      Left = 16
+      Top = 40
+      Width = 65
+      Height = 17
+      Caption = 'Green'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGreen
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      OnClick = GreenClick
+    end
+    object Blue: TRadioButton
+      Left = 16
+      Top = 64
+      Width = 65
+      Height = 17
+      Caption = 'Blue'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlue
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = BlueClick
+    end
+    object Gray: TRadioButton
+      Left = 16
+      Top = 88
+      Width = 65
+      Height = 17
+      Caption = 'Gray'
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBtnText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 3
+      TabStop = True
+      OnClick = GrayClick
+    end
   end
 end

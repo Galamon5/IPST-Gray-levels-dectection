@@ -1,6 +1,6 @@
 object HistogramForm: THistogramForm
-  Left = 565
-  Top = 208
+  Left = 576
+  Top = 138
   BiDiMode = bdLeftToRight
   BorderStyle = bsDialog
   Caption = 'Histogram'
@@ -1181,43 +1181,171 @@ object HistogramForm: THistogramForm
   object GroupBox4: TGroupBox
     Left = 8
     Top = 376
-    Width = 145
-    Height = 97
+    Width = 305
+    Height = 129
     TabOrder = 4
-    object Label43: TLabel
-      Left = 14
-      Top = 16
-      Width = 114
-      Height = 13
-      Caption = 'Missing Gray Levels'
+    object Label44: TLabel
+      Left = 86
+      Top = 8
+      Width = 117
+      Height = 20
+      Caption = 'Missing Levels'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
-      Font.Height = -11
+      Font.Height = -16
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsBold]
       ParentFont = False
     end
-    object GrayLevels: TLabel
-      Left = 66
-      Top = 40
-      Width = 6
-      Height = 13
-      Caption = '0'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clBlack
-      Font.Height = -11
-      Font.Name = 'MS Sans Serif'
-      Font.Style = []
-      ParentFont = False
+    object GroupGrayLevels: TGroupBox
+      Left = 232
+      Top = 32
+      Width = 65
+      Height = 57
+      TabOrder = 0
+      object Label43: TLabel
+        Left = 14
+        Top = 16
+        Width = 27
+        Height = 13
+        Caption = 'Gray'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object GrayLevels: TLabel
+        Left = 26
+        Top = 32
+        Width = 15
+        Height = 13
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
     end
     object Button1: TButton
       Left = 8
-      Top = 64
+      Top = 96
       Width = 129
       Height = 25
       Caption = 'Show Levels Table'
-      TabOrder = 0
+      TabOrder = 1
       OnClick = SLTableClick
+    end
+    object GroupRedLevels: TGroupBox
+      Left = 8
+      Top = 32
+      Width = 65
+      Height = 57
+      TabOrder = 2
+      object Label45: TLabel
+        Left = 14
+        Top = 16
+        Width = 24
+        Height = 13
+        Caption = 'Red'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object RedLevels: TLabel
+        Left = 26
+        Top = 32
+        Width = 6
+        Height = 13
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object GroupGreenLevels: TGroupBox
+      Left = 80
+      Top = 32
+      Width = 65
+      Height = 57
+      TabOrder = 3
+      object Label47: TLabel
+        Left = 14
+        Top = 16
+        Width = 35
+        Height = 13
+        Caption = 'Green'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object GreenLevels: TLabel
+        Left = 26
+        Top = 32
+        Width = 6
+        Height = 13
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object GroupBlueLevels: TGroupBox
+      Left = 160
+      Top = 32
+      Width = 65
+      Height = 57
+      TabOrder = 4
+      object Label49: TLabel
+        Left = 14
+        Top = 16
+        Width = 26
+        Height = 13
+        Caption = 'Blue'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object BlueLevels: TLabel
+        Left = 26
+        Top = 32
+        Width = 6
+        Height = 13
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Button2: TButton
+      Left = 168
+      Top = 96
+      Width = 129
+      Height = 25
+      Caption = 'Plot Based on Levels'
+      TabOrder = 5
+      OnClick = Button2Click
     end
   end
 end

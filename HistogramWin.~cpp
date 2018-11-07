@@ -214,6 +214,7 @@ if(Luminosity->State==cbChecked){
  conver(0,0,0,256,vmax,0,&xpc,&ypc);
  Grafica->Canvas->MoveTo(xpc,ypc);
  Grafica->Canvas->Pen->Color=clBlack;
+ GroupGrayLevels->Visible=true;
  int grayCounter=0;
   for(int i=0; i<256; i++)
   {
@@ -247,6 +248,7 @@ else
  CountL->Visible=false;
  CGaugeL->Visible=false;
  PerL->Visible=false;
+ GroupGrayLevels->Visible=false;
 }
 
 
@@ -408,7 +410,7 @@ B=StrToInt(LevelL->Caption);
 
 void __fastcall THistogramForm::SLTableClick(TObject *Sender)
 {
-  MainForm->MCHMissingGrayLevelsClick(&Sender);
+  MainForm->MCHMissingGrayLevelsClick(Sender);
 }
 //---------------------------------------------------------------------------
 

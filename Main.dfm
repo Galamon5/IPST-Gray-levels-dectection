@@ -1,6 +1,6 @@
 object MainForm: TMainForm
-  Left = 412
-  Top = 134
+  Left = 548
+  Top = 231
   Width = 696
   Height = 518
   Caption = 'Image Processing System (Student'#39's Edition)'
@@ -346,6 +346,10 @@ object MainForm: TMainForm
         object Missinggraylevels: TMenuItem
           Caption = 'Missing gray levels'
           OnClick = MCHMissingGrayLevelsClick
+        end
+        object Plotbasedonlevels1: TMenuItem
+          Caption = 'Plot based on levels'
+          OnClick = Plotbasedonlevels1Click
         end
       end
       object MCGrayscale: TMenuItem
